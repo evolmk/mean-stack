@@ -18,7 +18,7 @@ Install these dependencies to your Global node directory, so they're accessible 
 4. Start the application using nodemon: `nodemon server.js`
 5. Visit the application in your browser: [http://localhost:8080](http://localhost:8080)
 6. Enjoy!
-
+<br><br>
 ---
 ## CheatSheet
 
@@ -28,10 +28,10 @@ npm is node's package manager
 Get Version<br>
 `node --version && npm --version`
 
-Install a package globally (-g flag) to node
+Install a package globally (-g flag) to node<br>
 `npm install PACKAGENAME -g`
 
-Install a package locally, and update package.json dependencies list automatically
+Install a package locally, and update package.json dependencies list automatically<br>
 `npm install PACKAGENAME --save`
 
 View what packages are installed globally<br>
