@@ -79,14 +79,6 @@ Install Grunt & Gulp globally - we'll probably just use Grunt tho<br>
 #### Close an Issue from Commit Message
 The following keywords will close an issue via commit message, include the # of Issue in the message
 
-close
-closes
-closed
-fix
-fixes
-fixed
-resolve
-resolves
-resolved
+close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved
 
-ex: updated file, fixes #1
+ex: `updated file, fixes #1`
