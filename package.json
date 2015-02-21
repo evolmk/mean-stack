@@ -1,6 +1,6 @@
 {
   "name": "mean-stack",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "evolmk",
   "description": "starter kit for Mongodb, Express, AngularJS, Node.js",
   "main": "server.js",
@@ -8,16 +8,14 @@
     "type": "git",
     "url": "https://github.com/DemoAxion/mean-stack"
   },
-  "dependencies": {
-    "express": "latest",
-    "mongoose": "latest"
-  },
   "bugs": {
     "url": "https://github.com/DemoAxion/mean-stack/issues"
   },
-  "homepage": "https://github.com/DemoAxion/mean-stack",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "ISC"
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.12.0",
+    "express": "^4.11.2",
+    "mongoose": "3.8",
+    "morgan": "^1.5.1"
+  }
 }

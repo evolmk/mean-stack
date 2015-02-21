@@ -5,7 +5,7 @@ starter kit for Mongodb, Express, AngularJS, Node.js
 Install Node.js
 - [node and npm](http://nodejs.org/) - download and run installer
 
-Install these dependencies to your Global node directory, so they're accessible anywhere
+Install these dependencies to your Global modules, so they're accessible anywhere
 - [nodemon](http://nodemon.io/) - `npm install -g nodemon`
 - [bower](http://bower.io) - `npm install -g bower`
 - [gulp](http://gulpjs.com/) - `npm install -g gulp`
@@ -14,7 +14,10 @@ Install these dependencies to your Global node directory, so they're accessible 
 ## Install & Run
 
 1. Clone this repo
-2. Install your Node dependencies: `npm install`
+2. Create your package.json file with required Node dependencies:<br>
+`npm install express morgan mongoose body-parser bcrypt-nodejs --save`
+3. Install your Node dependencies locally into your project:<br>
+`npm install`
 4. Start the application using nodemon: `nodemon server.js`
 5. Visit the application in your browser: [http://localhost:8080](http://localhost:8080)
 6. Enjoy!
@@ -29,6 +32,9 @@ Install these dependencies to your Global node directory, so they're accessible 
 
 Get Version<br>
 `node --version && npm --version`
+
+Get Versions #'s of a package<br>
+`npm view PACKAGENAME versions`
 
 Install a package globally (-g flag) to node<br>
 `npm install PACKAGENAME -g`
