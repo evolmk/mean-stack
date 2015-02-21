@@ -6,9 +6,9 @@ Install Node.js
 - [node and npm](http://nodejs.org/) - download and run installer
 
 Install these dependencies to your Global modules, so they're accessible anywhere
-- [nodemon](http://nodemon.io/) -- `npm install -g nodemon`
-- [bower](http://bower.io) -- `npm install -g bower`
-- [gulp](http://gulpjs.com/) -- `npm install -g gulp`
+- [nodemon](http://nodemon.io/) -- `npm install nodemon -g`
+- [bower](http://bower.io) -- `npm install bower -g`
+- [gulp](http://gulpjs.com/) -- `npm install gulp -g`
 
 
 ## Install & Run
@@ -53,7 +53,7 @@ View what packages are installed globally<br>
 <i>Nodemon is a utility that will monitor for any changes in your source and automatically restart your server.</i>
 
 Install Nodemon globally<br>
-`npm install -g nodemon`
+`npm install nodemon -g`
 
 
 #### BOWER
