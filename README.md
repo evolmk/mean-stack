@@ -1,22 +1,23 @@
 # evol's MEAN stack
 starter kit for Mongodb, Express, AngularJS, Node.js
 
-## Install Global Packages (optional)
-use these if you want these packages to be accessible for all your projects, not just this project
-
+## Prerequisites
+Install Node.js
 - [node and npm](http://nodejs.org/) - download and run installer
+
+Install these dependencies to your Global node directory, so their accessible anywhere
 - [nodemon](http://nodemon.io/) - `npm install -g nodemon`
 - [bower](http://bower.io) - `npm install -g bower`
 - [gulp](http://gulpjs.com/) - `npm install -g gulp`
 
-## Installation Instructions
+
+## Install & Run
 
 1. Clone this repo
 2. Install your Node dependencies: `npm install`
 4. Start the application using nodemon: `nodemon server.js`
 5. Visit the application in your browser: [http://localhost:8080](http://localhost:8080)
 6. Enjoy!
-*
 
 ---
 ## CheatSheet
