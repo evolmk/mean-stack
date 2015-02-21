@@ -1,5 +1,5 @@
 # evol's MEAN stack
-A starter kit for Mongodb, Express, AngularJS, NodeJ.js
+starter kit for Mongodb, Express, AngularJS, NodeJ.js
 
 ## Requirements
 
