@@ -39,8 +39,9 @@ Get Versions #'s of a package<br>
 Install a package globally (-g flag) to node<br>
 `npm install PACKAGENAME -g`
 
-Install a package locally, and update package.json dependencies list automatically<br>
+Update package.json dependencies list automatically, then install dependencies<br>
 `npm install PACKAGENAME --save`
+`npm install`
 
 View what packages are installed globally<br>
 `npm list -g --depth=0`
