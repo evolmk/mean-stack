@@ -1,6 +1,6 @@
 {
   "name": "mean-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "evolmk",
   "description": "starter kit for Mongodb, Express, AngularJS, Node.js",
   "main": "server.js",
