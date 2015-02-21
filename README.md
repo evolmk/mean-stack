@@ -89,4 +89,4 @@ resolve
 resolves
 resolved
 
-ex: updated file, fixes #11
+ex: updated file, fixes #1
