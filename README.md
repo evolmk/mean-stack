@@ -16,6 +16,7 @@ use these if you want these packages to be accessible for all your projects, not
 4. Start the application using nodemon: `nodemon server.js`
 5. Visit the application in your browser: [http://localhost:8080](http://localhost:8080)
 6. Enjoy!
+*
 
 ---
 ## CheatSheet
@@ -52,4 +53,4 @@ Install a Bower Package to your local directory and update bower.json dependenci
 #### GRUNT & GULP
 
 Install Grunt & Gulp globally - we'll probably just use Grunt tho<br>
-npm install -g gulp grunt-cli
+`npm install -g gulp grunt-cli`
