@@ -14,7 +14,7 @@ Install these dependencies to your Global modules, so they're accessible anywher
 ## Install & Run
 
 1. Clone this repo
-2. Create your package.json file with required Node dependencies:<br>
+2. (OPTIONAL, file already exists in repo) Create your package.json file with required Node dependencies:<br>
 `npm install express morgan mongoose body-parser bcrypt-nodejs --save`
 3. Install your Node dependencies locally into your project:<br>
 `npm install`
