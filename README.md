@@ -22,14 +22,17 @@ Install these dependencies to your Global node directory, so they're accessible 
 ---
 ## CheatSheet
 
-#### NODE
+#### Node/NPM
+npm is node's package manager
 
 Get Version<br>
 `node --version && npm --version`
 
-Install a package globally, add -g flag.  leave off -g to install locally to current folder<br>
+Install a package globally (-g flag) to node
 `npm install PACKAGENAME -g`
 
+Install a package locally, and update package.json dependencies list automatically
+`npm install PACKAGENAME --save`
 
 View what packages are installed globally<br>
 `npm list -g --depth=0`
