@@ -24,8 +24,8 @@ Install these dependencies to your Global node directory, so they're accessible 
 
 ## CheatSheet
 
-#### Node/NPM
-npm is node's package manager
+#### NPM
+<i>node package manager</i>
 
 Get Version<br>
 `node --version && npm --version`
@@ -41,7 +41,9 @@ View what packages are installed globally<br>
 
 
 ### NODEMON
-Nodemon is a utility that will monitor for any changes in your source and automatically restart your server.<br>
+<i>Nodemon is a utility that will monitor for any changes in your source and automatically restart your server.</i>
+
+Install Nodemon globally<br>
 `npm install -g nodemon`
 
 
