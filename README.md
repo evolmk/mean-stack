@@ -40,8 +40,7 @@ Install a package globally (-g flag) to node<br>
 `npm install PACKAGENAME -g`
 
 Update/Create package.json dependencies list automatically with version#'s included<br>
-`npm install PACKAGENAME --save`<br>
-`npm install`
+`npm install PACKAGENAME --save` or `npm install PACKAGENAME1 PACKAGENAME2 PACKAGENAME3 --save`
 
 Install dependencies declared in package.json file<br>
 `npm install`
