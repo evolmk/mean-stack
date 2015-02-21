@@ -4,20 +4,21 @@ starter kit for Mongodb, Express, AngularJS, Node.js
 ## Install Global Packages (optional)
 use these if you want these packages to be accessible for all your projects, not just this project
 
-- [node and npm](http://nodejs.org/)
+- [node and npm](http://nodejs.org/) - download and run installer
 - [nodemon](http://nodemon.io/) - `npm install -g nodemon`
 - [bower](http://bower.io) - `npm install -g bower`
 - [gulp](http://gulpjs.com/) - `npm install -g gulp`
 
 ## Installation Instructions
 
-1. Install your Node dependencies: `npm install`
-2. Change your port in /server.js
-3. Start the application `nodemon server.js`
-4. Visit the application in your browser: [http://localhost:8080](http://localhost:8080)
-5. Enjoy!
+1. Clone this repo
+2. Install your Node dependencies: `npm install`
+4. Start the application using nodemon: `nodemon server.js`
+5. Visit the application in your browser: [http://localhost:8080](http://localhost:8080)
+6. Enjoy!
 
 ---
+## CheatSheet
 
 #### NODE
 
