@@ -33,6 +33,9 @@ Install these dependencies to your Global modules, so they're accessible anywher
 Get Version<br>
 `node --version && npm --version`
 
+Get Versions #'s of a package<br>
+`npm view PACKAGENAME versions`
+
 Install a package globally (-g flag) to node<br>
 `npm install PACKAGENAME -g`
 
