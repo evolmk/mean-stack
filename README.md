@@ -18,8 +18,10 @@ Install these dependencies to your Global node directory, so they're accessible 
 4. Start the application using nodemon: `nodemon server.js`
 5. Visit the application in your browser: [http://localhost:8080](http://localhost:8080)
 6. Enjoy!
-<br><br>
+<br>
+
 ---
+
 ## CheatSheet
 
 #### Node/NPM
