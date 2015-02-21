@@ -21,6 +21,8 @@ app.use(bodyParser.json());
 // log all requests to the console
 app.use(morgan('dev'));
 
+// connect to our database (mongoDb local)
+mongoose.connect('mongodb://node:noder@novus.modulusmongo.net:27017/Iganiq8o');
 
 
 // ROUTES FOR OUR API (url=/api)
