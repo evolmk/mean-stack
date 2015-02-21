@@ -14,7 +14,8 @@ Install these dependencies to your Global node directory, so they're accessible 
 ## Install & Run
 
 1. Clone this repo
-2. Install your Node dependencies: `npm install`
+2. Install your Node dependencies:<br>
+`npm install express morgan mongoose body-parser bcrypt-nodejs --save`
 4. Start the application using nodemon: `nodemon server.js`
 5. Visit the application in your browser: [http://localhost:8080](http://localhost:8080)
 6. Enjoy!
