@@ -6,9 +6,9 @@ Install Node.js
 - [node and npm](http://nodejs.org/) - download and run installer
 
 Install these dependencies to your Global modules, so they're accessible anywhere
-- [nodemon](http://nodemon.io/) - `npm install -g nodemon`
-- [bower](http://bower.io) - `npm install -g bower`
-- [gulp](http://gulpjs.com/) - `npm install -g gulp`
+- [nodemon](http://nodemon.io/) -- `npm install -g nodemon`
+- [bower](http://bower.io) -- `npm install -g bower`
+- [gulp](http://gulpjs.com/) -- `npm install -g gulp`
 
 
 ## Install & Run
