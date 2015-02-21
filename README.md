@@ -40,7 +40,7 @@ Install a package globally (-g flag) to node<br>
 `npm install PACKAGENAME -g`
 
 Update package.json dependencies list automatically, then install dependencies<br>
-`npm install PACKAGENAME --save`
+`npm install PACKAGENAME --save`<br>
 `npm install`
 
 View what packages are installed globally<br>
