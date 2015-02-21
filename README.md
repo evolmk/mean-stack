@@ -68,3 +68,25 @@ Install a Bower Package to your local directory and update bower.json dependenci
 
 Install Grunt & Gulp globally - we'll probably just use Grunt tho<br>
 `npm install -g gulp grunt-cli`
+
+
+---
+
+
+## GitHub Tricks
+
+
+#### Close an Issue from Commit Message
+The following keywords will close an issue via commit message, include the # of Issue in the message
+
+close
+closes
+closed
+fix
+fixes
+fixed
+resolve
+resolves
+resolved
+
+ex: updated file, fixes #11
