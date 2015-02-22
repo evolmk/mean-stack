@@ -52,6 +52,9 @@ $ node --version && npm --version
 # get version #'s of packages installed
 $ npm view <package> versions
 
+# list packages that are installed locally
+$ npm list
+
 # list packages that are installed globally
 $ npm list -g --depth=0
 ```
@@ -62,7 +65,7 @@ $ npm list -g --depth=0
 Nodemon is a utility that will monitor for any changes in your source and automatically restart your server
 
 ```sh
-#install nodemon globally
+# install nodemon globally
 $ npm install nodemon -g
 ```
 
@@ -101,8 +104,10 @@ $ bower uninstall <package-name>
 
 #### GRUNT & GULP
 
-Install Grunt & Gulp globally - we'll probably just use Grunt tho<br>
-```npm install -g gulp grunt-cli```
+```sh
+# Install Grunt & Gulp globally
+$ npm install -g gulp grunt-cli
+```
 
 
 ---
