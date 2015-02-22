@@ -37,29 +37,31 @@ Get Versions #'s of a package<br>
 ```npm view <package> versions```
 
 Install a package globally (-g flag) to node<br>
-`npm install PACKAGENAME -g`
+```npm install <package> -g```
 
 Update/Create package.json dependencies list automatically with version#'s included<br>
-`npm install PACKAGENAME --save` or `npm install PACKAGENAME1 PACKAGENAME2 PACKAGENAME3 --save`
+```npm install <package> --save```
+or
+```npm install <package1> <package2> <package3> --save```
 
 Install dependencies declared in package.json file<br>
-`npm install`
+```npm install```
 
 View what packages are installed globally<br>
-`npm list -g --depth=0`
+```npm list -g --depth=0```
 
 
 ### NODEMON
 <i>Nodemon is a utility that will monitor for any changes in your source and automatically restart your server.</i>
 
 Install Nodemon globally<br>
-`npm install nodemon -g`
+```npm install nodemon -g```
 
 
 #### BOWER
 
 Install Bower globally<br>
-`npm install bower -g`
+```npm install bower -g```
 
 To Install Bowser Packages to a folder instead, add a file in root: `.bowerrc` with this code:
 ```
@@ -69,14 +71,14 @@ To Install Bowser Packages to a folder instead, add a file in root: `.bowerrc` w
 ```
 
 Install a Bower Package to your local directory and update bower.json dependencies  list <br>
-`bower install PACKAGENAME --save`
+```bower install <package> --save```
 
 
 
 #### GRUNT & GULP
 
 Install Grunt & Gulp globally - we'll probably just use Grunt tho<br>
-`npm install -g gulp grunt-cli`
+```npm install -g gulp grunt-cli```
 
 
 ---
@@ -90,4 +92,4 @@ The following keywords will close an issue via commit message, include the # of 
 
 close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved
 
-ex: `updated file, fixes #1`
+ex: ```updated file, fixes #1```
