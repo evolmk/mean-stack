@@ -27,8 +27,8 @@ Install these dependencies to your Global modules, so they're accessible anywher
 
 ## CheatSheet
 
-#### NPM
-<i>node package manager</i>
+#### NPM for Node.js
+NPM is a node.js package manager
 
 ```sh
 # install a package globally using -g flag
