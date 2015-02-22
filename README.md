@@ -31,10 +31,10 @@ Install these dependencies to your Global modules, so they're accessible anywher
 <i>node package manager</i>
 
 Get Version<br>
-`node --version && npm --version`
+```node --version && npm --version```
 
 Get Versions #'s of a package<br>
-`npm view PACKAGENAME versions`
+```npm view <package> versions```
 
 Install a package globally (-g flag) to node<br>
 `npm install PACKAGENAME -g`
@@ -61,9 +61,15 @@ Install Nodemon globally<br>
 Install Bower globally<br>
 `npm install bower -g`
 
+To Install Bowser Packages to a folder instead, add a file in root: `.bowerrc` with this code:
+```
+{
+  "directory": "public/assets/libs"
+}
+```
+
 Install a Bower Package to your local directory and update bower.json dependencies  list <br>
 `bower install PACKAGENAME --save`
-
 
 
 
