@@ -77,7 +77,7 @@ Bower is a package manager for Javascript libraries that allows you to define, v
 ```sh
 [.bowerrc] 
 # to install packages to a specified folder instead of 'bower_components' folder.  
-# Create a file in root `.bowerrc` with:
+# create a file in root `.bowerrc` with:
 {
   "directory": "public/assets/libs"
 }
