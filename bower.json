@@ -1,0 +1,16 @@
+{
+  "name": "mean-stack",
+  "version": "1.0.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/assets/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.12.1"
+  }
+}

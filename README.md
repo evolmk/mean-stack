@@ -84,8 +84,16 @@ Bower is a package manager for Javascript libraries that allows you to define, v
 ```
 
 ```sh
+# install https://github.com/angular-ui/bootstrap
+$ bower install angular-bootstrap --save
+ ```
+
+```sh
 # install bower globally
 $ npm install bower -g
+
+# create bower.json file
+$ bower init
 
 # install dependencies listed in bower.json
 $ bower install
