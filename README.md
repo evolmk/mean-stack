@@ -52,14 +52,16 @@ View what packages are installed globally<br>
 
 
 ### NODEMON
-<i>Nodemon is a utility that will monitor for any changes in your source and automatically restart your server.</i>
+Nodemon is a utility that will monitor for any changes in your source and automatically restart your server
 
-Install Nodemon globally<br>
-```npm install nodemon -g```
+```sh
+#install nodemon globally
+$ npm install nodemon -g
+```
 
 
 #### BOWER
-
+Bower is a package manager for Javascript libraries that allows you to define, version, and retrieve your dependencies
 
 ```sh
 # install bower globally
