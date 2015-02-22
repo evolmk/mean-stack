@@ -73,10 +73,11 @@ $ npm install nodemon -g
 #### BOWER
 Bower is a package manager for Javascript libraries that allows you to define, version, and retrieve your dependencies
 
-.bowerrc
+
 ```sh
+[.bowerrc] 
 # to install packages to a specified folder instead of 'bower_components' folder.  
-# Create a file in root `.bowerrc` with the following:
+# Create a file in root `.bowerrc` with:
 {
   "directory": "public/assets/libs"
 }
