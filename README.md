@@ -60,19 +60,36 @@ Install Nodemon globally<br>
 
 #### BOWER
 
+
+```sh
+# install bower globally
+$ npm install bower -g
+
+# install dependencies listed in bower.json
+$ bower install
+
+# install a package and add it to bower.json
+$ bower install <package> --save
+
+# install specific version of a package and add it to bower.json
+$ bower install <package>#<version> --save
+
+
 Install Bower globally<br>
 ```npm install bower -g```
 
 To Install Bowser Packages to a specified folder instead, add a file in root: `.bowerrc` with this code:
-```
+```sh
 {
   "directory": "public/assets/libs"
 }
 ```
 
-Install a Bower Package to your local directory and update bower.json dependencies  list <br>
-```bower install <package> --save```
+To uninstall a locally installed package:
 
+```sh
+$ bower uninstall <package-name>
+```
 
 
 #### GRUNT & GULP
