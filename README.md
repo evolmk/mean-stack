@@ -63,7 +63,7 @@ Install Nodemon globally<br>
 Install Bower globally<br>
 ```npm install bower -g```
 
-To Install Bowser Packages to a folder instead, add a file in root: `.bowerrc` with this code:
+To Install Bowser Packages to a specified folder instead, add a file in root: `.bowerrc` with this code:
 ```
 {
   "directory": "public/assets/libs"
