@@ -73,12 +73,10 @@ $ bower install <package> --save
 
 # install specific version of a package and add it to bower.json
 $ bower install <package>#<version> --save
+```
 
 
-Install Bower globally<br>
-```npm install bower -g```
-
-To Install Bowser Packages to a specified folder instead, add a file in root: `.bowerrc` with this code:
+To install packages to a specified folder instead, add `.bowerrc` to root:
 ```sh
 {
   "directory": "public/assets/libs"
