@@ -30,25 +30,32 @@ Install these dependencies to your Global modules, so they're accessible anywher
 #### NPM
 <i>node package manager</i>
 
-Get Version<br>
-```node --version && npm --version```
+```sh
+# install a package globally using -g flag
+$ npm install <package> -g
 
-Get Versions #'s of a package<br>
-```npm view <package> versions```
+# install a package locally
+$ npm install <package>
 
-Install a package globally (-g flag) to node<br>
-```npm install <package> -g```
+# install a package and also update package.json with the installed version and package name 
+$ npm install <package> --save
 
-Update/Create package.json dependencies list automatically with version#'s included<br>
-```npm install <package> --save```
-or
-```npm install <package1> <package2> <package3> --save```
+# install multiple packages at same time
+$ npm install <package1> <package2> <package3> --save
 
-Install dependencies declared in package.json file<br>
-```npm install```
+# install dependencies already declared in package.json file
+$ npm install
 
-View what packages are installed globally<br>
-```npm list -g --depth=0```
+# get node & npm version
+$ node --version && npm --version
+
+# get version #'s of packages installed
+$ npm view <package> versions
+
+# list packages that are installed globally
+$ npm list -g --depth=0
+```
+
 
 
 ### NODEMON
