@@ -38,3 +38,7 @@ body > main {
 code {
     font-size: 80%;
 }
+
+
+/*Angular Bootstrap*/
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }  /*remove empty href attributes from directive templates*/
