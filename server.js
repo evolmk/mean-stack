@@ -32,11 +32,8 @@ mongoose.connect(config.database);  //get connectionstring from config.js
 app.use(express.static(__dirname + '/public'));
 
 
-
-
 // ROUTES
 // ======================================
-
 
 //NOT USING API YET
 // API ROUTES (app/routes/api.js) ------------------------
@@ -44,12 +41,12 @@ app.use(express.static(__dirname + '/public'));
 //app.use('/api', apiRoutes);
 
 
-// SITE ROUTES (public/app/app.routes.js) ------------------------
-//
-app.get('/', function(req, res) {
+// MAIN CATCHALL ROUTE ---------------
+// SEND USERS TO FRONTEND ------------
+// has to be registered after API ROUTES
+app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname + '/public/app/views/index.html'));
 });
-
 
 
 // START THE SERVER

@@ -1,9 +1,9 @@
 angular.module('mainCtrl', [])
 
-.controller('mainController', function() {
-	var vm = this;	
-	vm.message = 'message from controller';
+	.controller('mainController', function() {
+		var vm = this;
 
+		//do your controller logic here
+		vm.message = 'message from mainCtrl controller';
 
-	//do your controller logic here
-});
+	});
