@@ -4,6 +4,6 @@ angular.module('userCtrl', [])
         var vm = this;
 
         //do your controller logic here
-        vm.message = 'message from user controller';
+        vm.message = 'message from userCtrl controller';
 
     });
