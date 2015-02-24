@@ -1,4 +1,4 @@
-var meanApp = ('meanApp', ['app.routes', 'ui.bootstrap', 'mainCtrl', 'userCtrl']);
+angular.module('meanApp', ['app.routes', 'ui.bootstrap', 'mainCtrl', 'userCtrl'])
 
 
 //OLD IS BELOW - controllers moved to /public/app/controllers folder
