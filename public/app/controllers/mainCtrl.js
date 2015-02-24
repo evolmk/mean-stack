@@ -1,3 +1,9 @@
-/**
- * Created by Miki on 2/21/2015.
- */
+angular.module('mainCtrl', [])
+
+.controller('mainController', function() {
+	var vm = this;	
+	vm.message = 'message from controller';
+
+
+	//do your controller logic here
+});

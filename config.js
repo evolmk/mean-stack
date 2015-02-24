@@ -1,1 +1,5 @@
-//nothing here yet. we'll put db & gulp settings here
+module.exports = {
+    'port': process.env.PORT || 8080,
+    'database': 'mongodb://localhost/meanstackdb',
+    'secret': 'oursecrettokenforusers'
+};
