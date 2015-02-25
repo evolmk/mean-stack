@@ -1,4 +1,5 @@
-/* Sticky footer styles
+/* --------------------------------------------------
+LAYOUT
 -------------------------------------------------- */
 html {
     position: relative;
@@ -36,3 +37,138 @@ code {
 /*Angular Bootstrap*/
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 /*remove empty href attributes from directive templates*/
+
+
+
+
+/* --------------------------------------------------
+ELEMENTS [global]
+-------------------------------------------------- */
+/*text*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { /*font-family: 'Lato', sans-serif;*/ font-weight: 600; line-height: 1.1; color: inherit; margin: 0 0 15px 0; }
+h1 { color: #333b42; font-size: 28px; }
+h2 { color: #3F4549; font-size: 24px; }
+h3 { color: #3F4549; font-size: 20px; }
+h4 { color: #3F4549; font-size: 18px; }
+
+p { margin: 0 0 25px 0; line-height: 21px; }
+.lead { margin-bottom: 20px; font-size: 21px; font-weight: 300; line-height: 1.4; }
+
+
+/*links*/
+a { color: #3289C3; text-decoration: none; -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out; -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out; -ms-transition: color 0.2s ease-out, background-color 0.2s ease-out; -o-transition: color 0.2s ease-out, background-color 0.2s ease-out; transition: color 0.2s ease-out, background-color 0.2s ease-out; }
+/*darker=016EB6, lighter=197AB1*/
+a:hover, a:focus { color: #2a6496; text-decoration: underline; }
+
+a.external { }
+a.external:after { display: inline-block; font-family: FontAwesome; font-weight: normal; font-size: 12px; text-decoration: none; content: "\f08e"; color: #ccc; margin-left: 6px; position: relative; top: 1px; }
+/*f08e, f14c*/
+a.external:hover:after { color: #999; }
+
+/*shorties*/
+.uppercase { text-transform: uppercase; }
+
+.font-10px { font-size: 10px; }
+.font-11px { font-size: 11px; }
+.font-12px { font-size: 12px; }
+.font-13px { font-size: 13px; }
+.font-14px { font-size: 14px; }
+.font-15px { font-size: 15px; }
+.font-16px { font-size: 16px; }
+.font-17px { font-size: 17px; }
+.font-18px { font-size: 18px; }
+.font-19px { font-size: 19px; }
+.font-20px { font-size: 20px; }
+.font-21px { font-size: 21px; }
+.font-22px { font-size: 22px; }
+.font-23px { font-size: 23px; }
+.font-24px { font-size: 24px; }
+.font-25px { font-size: 25px; }
+
+
+.color-black { color: #000; }
+.color-dark { color: #444; }
+.color-light { color: #aaa; }
+.color-white { color: #fff; }
+
+.lheight-12px { line-height: 12px; }
+.lheight-13px { line-height: 13px; }
+.lheight-14px { line-height: 14px; }
+.lheight-15px { line-height: 15px; }
+.lheight-16px { line-height: 16px; }
+.lheight-17px { line-height: 17px; }
+.lheight-18px { line-height: 18px; }
+.lheight-19px { line-height: 19px; }
+.lheight-20px { line-height: 20px; }
+.lheight-21px { line-height: 21px; }
+.lheight-22px { line-height: 22px; }
+
+hr { border: 0; border-top: 1px solid #C8CACF; margin-top: 20px; margin-bottom: 20px; }
+.hr-sm { margin-top: 10px; margin-bottom: 10px; }
+.hr-md { margin-top: 20px; margin-bottom: 20px; }
+.hr-lg { margin-top: 30px; margin-bottom: 30px; }
+.hr-xl { margin-top: 40px; margin-bottom: 40px; }
+
+/*margin presets*/
+.margin-0 { margin-bottom: 0px; }
+.margin-5 { margin-bottom: 5px; }
+.margin-10 { margin-bottom: 10px; }
+.margin-15 { margin-bottom: 15px; }
+.margin-20 { margin-bottom: 20px; }
+.margin-25 { margin-bottom: 25px; }
+.margin-30 { margin-bottom: 30px; }
+.margin-35 { margin-bottom: 35px; }
+.margin-40 { margin-bottom: 40px; }
+.margin-45 { margin-bottom: 45px; }
+.margin-50 { margin-bottom: 50px; }
+.margint-5 { margin-top: 5px; }
+.margint-10 { margin-top: 10px; }
+.margint-15 { margin-top: 15px; }
+.margint-20 { margin-top: 20px; }
+.margint-25 { margin-top: 25px; }
+.margint-30 { margin-top: 30px; }
+.margint-35 { margin-top: 35px; }
+.margint-40 { margin-top: 40px; }
+.margint-45 { margin-top: 45px; }
+.margint-50 { margin-top: 50px; }
+.marginr-5 { margin-right: 5px; }
+.marginr-10 { margin-right: 10px; }
+.marginr-15 { margin-right: 15px; }
+.marginr-20 { margin-right: 20px; }
+.marginr-25 { margin-right: 25px; }
+.marginr-30 { margin-right: 30px; }
+
+/*padding for responsive cols*/
+.colpad { padding-bottom: 30px; }
+.colpad-5 { padding-bottom: 5px; }
+.colpad-10 { padding-bottom: 10px; }
+.colpad-15 { padding-bottom: 15px; }
+.colpad-20 { padding-bottom: 20px; }
+.colpad-30 { padding-bottom: 30px; }
+.colpad-40 { padding-bottom: 40px; }
+.colpad-50 { padding-bottom: 50px; }
+
+/*opacity*/
+.opacity0 { opacity: 0; }
+.opacity10 { opacity: 0.1; }
+.opacity20 { opacity: 0.2; }
+.opacity30 { opacity: 0.3; }
+.opacity40 { opacity: 0.4; }
+.opacity50 { opacity: 0.5; }
+.opacity60 { opacity: 0.6; }
+.opacity70 { opacity: 0.7; }
+.opacity80 { opacity: 0.8; }
+.opacity90 { opacity: 0.9; }
+.opacity100 { opacity: 1.0; }
+
+/*bg colors for jquery hover*/
+.hover-blue { background: #E2EAF1 !important; border-color: #CAD3DB !important; }
+.hover-red { background-color: #F1E2E2 !important; border-color: #ECC1C1 !important; }
+
+/*css3 vertical align*/
+.vertical-align { position: relative; top: 50.1%; -webkit-transform: translateY(-50.1%); -ms-transform: translateY(-50.1%); -moz-transform: translateY(-50.1%); -o-transform: translateY(-50.1%); transform: translateY(-50.1%); }
+/*if blurry, add .parent-element { -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; transform-style: preserve-3d; } */
+
+.img-zoom { -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+.img-zoom.transition { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1); -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -o-transition-timing-function: ease-out; transition-timing-function: ease-out; -webkit-transition-duration: 300ms; -moz-transition-duration: 300ms; -o-transition-duration: 300ms; transition-duration: 300ms; }
+

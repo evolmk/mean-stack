@@ -1,32 +1,68 @@
-<div class="container">
+<div class="container" ng-controller="playersController as players">
     <div class="row">
         <div class="col-md-12">
-            <h1>Home</h1>
 
-            <p>{{ main.message }}</p>
 
             <!-- without $scope - controller as -->
-            <div ng-controller="playersController as players">
-                <p></p>
+            <div class="row">
 
-                <table class="table table-bordered">
-                    <thead>
-                    <tr>
-                        <td>Name</td>
-                        <td>Color</td>
-                        <td>Nerd Level</td>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr ng-repeat="player in players.playerslist">
-                        <td>{{ player.name }}</td>
-                        <td>{{ player.hand }}</td>
-                        <td>{{ player.jerseynumber }}</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
+                <!--leftcol-->
+                <div class="col-md-7 margin-30">
 
-        </div>
-    </div>
-</div>
+                    <!-- Table - list players -->
+                    <h3>Players List</h3>
+                    <table class="table table-condensed table-hover">
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Hand</th>
+                            <th>Jersey #</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="player in players.playerlist">
+                            <td>{{ player.name }}</td>
+                            <td>{{ player.hand }}</td>
+                            <td>{{ player.jerseynumber }}</td>
+                            <td>Edit &nbsp; Delete</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div><!--//end-leftcol-->
+
+
+                <!--rightcol-->
+                <div class="col-md-5 margin-30">
+
+                    <!-- Form - add player to the list -->
+                    <h3>Add Player</h3>
+                    <form ng-submit="players.addPlayer()" novalidate>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Name" ng-model="players.playerData.name" ng-minlength="1" ng-maxlength="40" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Hand</label>
+                            <select class="form-control" ng-model="players.playerData.hand">
+                                <option value="">-- choose hand --</option>
+                                <option ng-repeat="hand in players.handoptions" value="{{hand.name}}">{{hand.value}}</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Jersey #</label>
+                            <input type="number" class="form-control" placeholder="Jersey #" ng-model="players.playerData.jerseynumber" min="0" max="99" required>
+                        </div>
+                        <button type="submit" class="btn btn-default">Add Player</button>
+                    </form>
+
+                </div><!--//end-rightcol-->
+
+
+
+            </div><!--//end-row-->
+
+        </div><!--//end-col-md-12-->
+    </div><!--//end-row-->
+</div><!--//end-container-->
