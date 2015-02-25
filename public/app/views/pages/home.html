@@ -3,7 +3,30 @@
         <div class="col-md-12">
             <h1>Home</h1>
 
-            <p>{{ home.message }}</p>
+            <p>{{ main.message }}</p>
+
+            <!-- without $scope - controller as -->
+            <div ng-controller="playersController as players">
+                <p></p>
+
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Color</td>
+                        <td>Nerd Level</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="player in players.playerslist">
+                        <td>{{ player.name }}</td>
+                        <td>{{ player.hand }}</td>
+                        <td>{{ player.jerseynumber }}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
         </div>
     </div>
 </div>

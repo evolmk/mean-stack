@@ -9,21 +9,21 @@ angular.module('app.routes', ['ngRoute'])
             .when('/', {
                 templateUrl : 'app/views/pages/home.html',
                 controller  : 'mainController',
-                controllerAs: 'home'
+                controllerAs: 'main'
             })
 
             // route for /about
             .when('/about', {
                 templateUrl : 'app/views/pages/about.html',
                 controller  : 'mainController',
-                controllerAs: 'about'
+                controllerAs: 'main'
             })
 
             // route for /contact
             .when('/contact', {
                 templateUrl : 'app/views/pages/contact.html',
                 controller  : 'mainController',
-                controllerAs: 'contact'
+                controllerAs: 'main'
             });
 
         $locationProvider.html5Mode(true);

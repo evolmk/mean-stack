@@ -16,9 +16,6 @@ body {
     height: 60px;
     background-color: #f5f5f5;
 }
-
-
-
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
@@ -29,16 +26,13 @@ body > main {
 .container .text-muted {
     margin: 20px 0;
 }
-
 .footer > .container {
     padding-right: 15px;
     padding-left: 15px;
 }
-
 code {
     font-size: 80%;
 }
-
-
 /*Angular Bootstrap*/
-.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }  /*remove empty href attributes from directive templates*/
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+/*remove empty href attributes from directive templates*/

@@ -46,7 +46,7 @@
 
 
     <!-- HEADER AND NAVBAR -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" >
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -57,11 +57,11 @@
                 </button>
                 <a class="navbar-brand" href="#">MEAN lite</a>
             </div>
-            <div id="navbar" class="collapse navbar-collapse navbar-right">
+            <div id="navbar" class="collapse navbar-collapse navbar-right" ng-controller="navController as nav">
                 <ul class="nav navbar-nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li ng-class="{ active: nav.isActive('/')}"><a href="/">Home</a></li>
+                    <li ng-class="{ active: nav.isActive('/about')}"><a href="/about">About</a></li>
+                    <li ng-class="{ active: nav.isActive('/contact')}"><a href="/contact">Contact</a></li>
                     <li class="dropdown" dropdown>
                         <a href="#" class="dropdown-toggle" dropdown-toggle>Dropdown <span class="caret"></span></a>
                         <ul class="dropdown-menu">
