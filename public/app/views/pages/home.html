@@ -6,11 +6,12 @@
             <!-- without $scope - controller as -->
             <div class="row">
 
+                <h1>CRUD Operations</h1>
+
                 <!--leftcol-->
                 <div class="col-md-7 margin-30">
 
                     <!-- Table - list players -->
-                    <h3>Players List</h3>
                     <table class="table table-condensed table-hover">
                         <thead>
                         <tr>
@@ -37,15 +38,14 @@
                 <div class="col-md-5 margin-30">
 
                     <!-- Form - add player to the list -->
-                    <h3>Add Player</h3>
                     <form ng-submit="players.addPlayer()" novalidate>
                         <div class="form-group">
                             <label>Name</label>
                             <input type="text" class="form-control" placeholder="Name" ng-model="players.playerData.name" ng-minlength="1" ng-maxlength="40" required>
                         </div>
                         <div class="form-group">
-                            <label>Hand</label>
-                            <select class="form-control" ng-model="players.playerData.hand">
+                            <label for="hand">Hand</label>
+                            <select id="hand" class="form-control" ng-model="players.playerData.hand">
                                 <option value="">-- choose hand --</option>
                                 <option ng-repeat="hand in players.handoptions" value="{{hand.name}}">{{hand.value}}</option>
                             </select>
