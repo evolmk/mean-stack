@@ -6,7 +6,7 @@
             <!-- without $scope - controller as -->
             <div class="row">
 
-                <h1>CRUD Operations</h1>
+                <h1>NHL Players</h1>
 
                 <!--leftcol-->
                 <div class="col-md-7 margin-30">
@@ -38,7 +38,7 @@
                 <div class="col-md-5 margin-30">
 
                     <!-- Form - add player to the list -->
-                    <form ng-submit="players.addPlayer()" novalidate>
+                    <form ng-submit="players.savePlayer()" novalidate>
                         <div class="form-group">
                             <label>Name</label>
                             <input type="text" class="form-control" placeholder="Name" ng-model="players.playerData.name" ng-minlength="1" ng-maxlength="40" required>

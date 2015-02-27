@@ -14,12 +14,6 @@ ctrl.controller('mainController', function ($scope, alertService) {
     vm.message = "this message is from the mainController";
 
 
-    // NAV - active menu
-    vm.isActive = function (viewLocation) {
-        return viewLocation === $location.path();
-    };
-
-
     //Bootrap Alerts using 'alertService' in services/appServices.js
     //add alert
     vm.addAlert = function () {
@@ -41,7 +35,7 @@ ctrl.controller('navController', function ($location) {
     // bind this to vm (view-model)
     var vm = this;
 
-    //get active page
+    // NAV - active menu
     vm.isActive = function (viewLocation) {
         return viewLocation === $location.path();
     }
@@ -82,8 +76,8 @@ ctrl.controller('playersController', function ($scope, alertService) {
     // information that comes from our form
     vm.playerData = {};
 
-    // add player to data function
-    vm.addPlayer = function () {
+    // save player to data function
+    vm.savePlayer = function () {
 
         // add a player to the playerslist
         vm.playerlist.push({
