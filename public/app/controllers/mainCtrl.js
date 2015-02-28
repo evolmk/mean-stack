@@ -109,7 +109,9 @@ module.controller('playersController', function ($scope, alertService) {
         vm.playerData = {};
 
         //show success message
-        alertService.add("success", "Success - Player Added");
+        alertService.add("success", "Record Added Successfully");
+
+        vm.reset();
     }
 
 
