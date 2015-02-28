@@ -78,14 +78,25 @@ module.controller('playersController', function ($scope, alertService) {
         {name: 'Mark Messier', hand: 'Left', jerseynumber: 11}
     ];
 
-    // information that comes from our form
+    // set initial form data
     vm.playerData = {};
 
+
+    //FORM ACTIONS
 
     // save player form
     vm.save = function () {
 
+        console.log("form valid: " + $scope.playerForm.$valid);
+
+        //console.log("form action: save");
+
         // check to make sure the form is completely valid
+
+        //if form is not valid then return out of save function
+        if (!$scope.playerForm.$valid) {
+            return;
+        }
 
         // add a player to the playerslist
         vm.playerlist.push({
@@ -103,18 +114,10 @@ module.controller('playersController', function ($scope, alertService) {
 
 
     // reset player form
-    vm.resetthis = function () {
-        console.log("reset");
+    vm.reset = function () {
+        //console.log("form action:  reset");
         $scope.$broadcast('show-errors-reset');
         vm.playerData = {name: '', hand: '', jerseynumber: ''};
     }
-
-    //$scope.reset = function() {
-    //    console.log("reset");
-    //    $scope.$broadcast('show-errors-reset');
-    //    $scope.playerData = {};
-    //    $scope.playerData = { name: '', email: '' };
-    //}
-
 
 });

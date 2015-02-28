@@ -44,30 +44,30 @@
                     <form name="playerForm" novalidate>
 
                         <div class="form-group" show-errors>
-                            <label class="control-label">Name</label>
+                            <label class="control-label">Name <sup>*</sup></label>
                             <input type="text" name="name" class="form-control" placeholder="Name" ng-model="players.playerData.name" ng-minlength="2" ng-maxlength="20" required>
 
-                            <p class="help-block" ng-if="playerForm.name.$error.required">Name is required</p>
+                            <p class="help-block" ng-if="playerForm.name.$error.required">Field is required</p>
 
                             <p class="help-block" ng-show="playerForm.name.$error.minlength">Name must be at least 2 characters</p>
                         </div>
                         <div class="form-group" show-errors>
                             <label class="control-label">Hand</label>
-                            <select name="hand" class="form-control" ng-model="players.playerData.hand" required>
-                                <option value="">-- choose hand --</option>
+                            <select name="hand" class="form-control widthauto" ng-model="players.playerData.hand" required>
+                                <option value="">-- select --</option>
                                 <option ng-repeat="hand in players.handoptions" value="{{hand.name}}">{{hand.value}}</option>
                             </select>
 
-                            <p class="help-block" ng-if="playerForm.hand.$error.required">Hand is required</p>
+                            <p class="help-block" ng-if="playerForm.hand.$error.required">Field is required</p>
                         </div>
                         <div class="form-group" show-errors>
                             <label class="control-label">Jersey #</label>
                             <input type="text" name="jerseynumber" class="form-control" placeholder="Jersey #" ng-model="players.playerData.jerseynumber" number-filter required>
 
-                            <p class="help-block" ng-if="playerForm.jerseynumber.$error.required">Jersey # is required</p>
+                            <p class="help-block" ng-if="playerForm.jerseynumber.$error.required">Field is required</p>
                         </div>
                         <button type="submit" class="btn btn-primary" ng-click="players.save()">Add Player</button>
-                        <button class="btn btn-link" ng-click="players.resetthis()">Reset</button>
+                        <button class="btn btn-link" ng-click="players.reset()">Reset</button>
                     </form>
 
 

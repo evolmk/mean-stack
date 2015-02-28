@@ -59,7 +59,8 @@ h4 { color: #3f4549; font-size: 18px; margin-bottom: 15px; }
 
 p { margin: 0 0 25px 0; line-height: 21px; }
 .lead { margin-bottom: 20px; font-size: 21px; font-weight: 300; line-height: 1.4; }
-
+/*autowidth*/
+.widthauto { width: auto !important; }
 
 /*links*/
 a { color: #3289C3; text-decoration: none; -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out; -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out; -ms-transition: color 0.2s ease-out, background-color 0.2s ease-out; -o-transition: color 0.2s ease-out, background-color 0.2s ease-out; transition: color 0.2s ease-out, background-color 0.2s ease-out; }
