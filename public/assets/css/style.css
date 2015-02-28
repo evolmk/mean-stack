@@ -127,7 +127,7 @@ label {
     -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-.form-buttons { margin-top: 20px; }
+.form-buttons { margin-top: 25px; }
 /*input size defaults*/
 .input-default { width: 100%; max-width: 100%; }
 .input-number { max-width: 80px; }
