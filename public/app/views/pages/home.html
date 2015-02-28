@@ -40,18 +40,18 @@
                     <!-- Form - add player to the list -->
                     <form ng-submit="players.savePlayer()" novalidate>
                         <div class="form-group">
-                            <label>Name</label>
+                            <label>Name : {{players.playerData.name}}</label>
                             <input type="text" class="form-control" placeholder="Name" ng-model="players.playerData.name" ng-minlength="1" ng-maxlength="40" required>
                         </div>
                         <div class="form-group">
-                            <label for="hand">Hand</label>
+                            <label for="hand">Hand : {{players.playerData.hand}}</label>
                             <select id="hand" class="form-control" ng-model="players.playerData.hand">
                                 <option value="">-- choose hand --</option>
                                 <option ng-repeat="hand in players.handoptions" value="{{hand.name}}">{{hand.value}}</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label>Jersey #</label>
+                            <label>Jersey # : {{players.playerData.jerseynumber}}</label>
                             <input type="number" class="form-control" placeholder="Jersey #" ng-model="players.playerData.jerseynumber" min="0" max="99" required>
                         </div>
                         <button type="submit" class="btn btn-default">Add Player</button>

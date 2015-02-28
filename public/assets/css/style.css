@@ -7,19 +7,18 @@ html {
 }
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 160px;
+    height: 70px;
     background-color: #f5f5f5;
 }
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
+.footer-container { margin-top: 15px; margin-bottom: 15px; }
+
 
 body > main {
     padding: 60px 15px 0;
@@ -110,17 +109,17 @@ hr { border: 0; border-top: 1px solid #C8CACF; margin-top: 20px; margin-bottom: 
 .hr-xl { margin-top: 40px; margin-bottom: 40px; }
 
 /*margin presets*/
-.margin-0 { margin-bottom: 0px; }
-.margin-5 { margin-bottom: 5px; }
-.margin-10 { margin-bottom: 10px; }
-.margin-15 { margin-bottom: 15px; }
-.margin-20 { margin-bottom: 20px; }
-.margin-25 { margin-bottom: 25px; }
-.margin-30 { margin-bottom: 30px; }
-.margin-35 { margin-bottom: 35px; }
-.margin-40 { margin-bottom: 40px; }
-.margin-45 { margin-bottom: 45px; }
-.margin-50 { margin-bottom: 50px; }
+.marginb-0 { margin-bottom: 0px; }
+.marginb-5 { margin-bottom: 5px; }
+.marginb-10 { margin-bottom: 10px; }
+.marginb-15 { margin-bottom: 15px; }
+.marginb-20 { margin-bottom: 20px; }
+.marginb-25 { margin-bottom: 25px; }
+.marginb-30 { margin-bottom: 30px; }
+.marginb-35 { margin-bottom: 35px; }
+.marginb-40 { margin-bottom: 40px; }
+.marginb-45 { margin-bottom: 45px; }
+.marginb-50 { margin-bottom: 50px; }
 .margint-5 { margin-top: 5px; }
 .margint-10 { margin-top: 10px; }
 .margint-15 { margin-top: 15px; }

@@ -16,14 +16,14 @@ angular.module('app.routes', ['ngRoute'])
             .when('/about', {
                 templateUrl : 'app/views/pages/about.html',
                 controller  : 'mainController',
-                controllerAs: 'main'
+                controllerAs: 'about'
             })
 
             // route for /contact
             .when('/contact', {
                 templateUrl : 'app/views/pages/contact.html',
                 controller  : 'mainController',
-                controllerAs: 'main'
+                controllerAs: 'contact'
             });
 
         $locationProvider.html5Mode(true);

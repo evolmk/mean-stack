@@ -1,1 +1,1 @@
-angular.module('meanApp', ['app.routes', 'ui.bootstrap', 'appServices', 'mainCtrl', 'userCtrl']);
+angular.module('meanApp', ['app.routes', 'ui.bootstrap', 'appServices', 'siteCtrl', 'userCtrl']);
