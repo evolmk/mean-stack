@@ -1,11 +1,11 @@
-var site = angular.module('siteCtrl', ['appServices']);
+var module = angular.module('mainCtrl', ['appServices']);
 
 //GLOBAL Main Controller (accessible on all partial views)
 //===========================================
 //in use: <body ng-app="meanApp" ng-controller="mainController as main">
 //reference: {{ main.message }}
 
-site.controller('mainController', function ($scope, alertService) {
+module.controller('mainController', function ($scope, alertService) {
     // bind this to vm (view-model)
     var vm = this;
 
@@ -36,7 +36,7 @@ site.controller('mainController', function ($scope, alertService) {
 //in use: <div id="navbar" class="collapse navbar-collapse navbar-right" ng-controller="navController as nav">
 //reference: {{ nav.isActive('/contact') }}
 
-site.controller('navController', function ($location) {
+module.controller('navController', function ($location) {
     // bind this to vm (view-model)
     var vm = this;
 
@@ -53,7 +53,7 @@ site.controller('navController', function ($location) {
 //in use: <<div ng-controller="playersController as players">
 //loop data: <tr ng-repeat="player in players.playerlist">
 
-site.controller('playersController', function ($scope, alertService) {
+module.controller('playersController', function ($scope, alertService) {
     // bind this to vm (view-model)
     var vm = this;
 
@@ -81,8 +81,11 @@ site.controller('playersController', function ($scope, alertService) {
     // information that comes from our form
     vm.playerData = {};
 
-    // save player to data function
-    vm.savePlayer = function () {
+
+    // save player form
+    vm.save = function () {
+
+        // check to make sure the form is completely valid
 
         // add a player to the playerslist
         vm.playerlist.push({
@@ -96,11 +99,22 @@ site.controller('playersController', function ($scope, alertService) {
 
         //show success message
         alertService.add("success", "Success - Player Added");
-        alertService.add("info", "Info - No changes were made");
-        alertService.add("warning", "Warning - Player Added but has warning");
-        alertService.add("danger", "Error - Could not communicate with database");
-
-
     }
+
+
+    // reset player form
+    vm.resetthis = function () {
+        console.log("reset");
+        $scope.$broadcast('show-errors-reset');
+        vm.playerData = {name: '', hand: '', jerseynumber: ''};
+    }
+
+    //$scope.reset = function() {
+    //    console.log("reset");
+    //    $scope.$broadcast('show-errors-reset');
+    //    $scope.playerData = {};
+    //    $scope.playerData = { name: '', email: '' };
+    //}
+
 
 });

@@ -21,7 +21,7 @@ body {
 
 
 body > main {
-    padding: 60px 15px 0;
+    padding: 100px 15px 0;
 }
 .container .text-muted {
     margin: 20px 0;
@@ -33,9 +33,16 @@ body > main {
 code {
     font-size: 80%;
 }
+/* --------------------------------------------------
+BOOTSTRAP [angular]
+-------------------------------------------------- */
 /*Angular Bootstrap*/
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 /*remove empty href attributes from directive templates*/
+
+/*Angular Bootstrap Show Errors*/
+.form-group .help-block { display: none; }
+.form-group.has-error .help-block { display: block; }
 
 
 
@@ -45,10 +52,10 @@ ELEMENTS [global]
 -------------------------------------------------- */
 /*text*/
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { /*font-family: 'Lato', sans-serif;*/ font-weight: 600; line-height: 1.1; color: inherit; margin: 0 0 15px 0; }
-h1 { color: #333b42; font-size: 28px; }
-h2 { color: #3F4549; font-size: 24px; }
-h3 { color: #3F4549; font-size: 20px; }
-h4 { color: #3F4549; font-size: 18px; }
+h1 { color: #333b42; font-size: 28px; margin-bottom: 25px; }
+h2 { color: #3f4549; font-size: 24px; margin-bottom: 20px; }
+h3 { color: #3f4549; font-size: 20px; margin-bottom: 20px; }
+h4 { color: #3f4549; font-size: 18px; margin-bottom: 15px; }
 
 p { margin: 0 0 25px 0; line-height: 21px; }
 .lead { margin-bottom: 20px; font-size: 21px; font-weight: 300; line-height: 1.4; }
