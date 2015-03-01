@@ -96,7 +96,12 @@ BOOTSTRAP
 
 /*form errors*/
 .form-group .help-block { display: none; }
-.form-group.has-error .help-block { display: block; margin-top: 3px; margin-bottom: 10px; }
+.form-group.has-error .help-block {
+    display: block;
+    margin-top: 2px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
 .control-label sup { font-size: 17px; top: 0; color: #bd3e3c; opacity: 1; }
 .has-success .control-label sup { opacity: 0; }
 
@@ -104,11 +109,17 @@ BOOTSTRAP
 .alert { padding: 12px 20px 12px 20px; font-size: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 3px; }
 .alert.alert-dismissable { padding-right: 35px; }
 .alert .close { opacity: 0.5; font-size: 27px; }
+
 /*forms*/
+.form-group {
+    margin-bottom: 10px;
+}
 label {
     display: inline-block;
     margin-bottom: 2px;
     font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 .form-control {
     display: block;

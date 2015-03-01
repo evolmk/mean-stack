@@ -84,19 +84,19 @@ module.controller('playersController', function ($scope, alertService) {
 
     //FORM ACTIONS
 
+
     // save player form
     vm.save = function () {
 
-        console.log("form valid: " + $scope.playerForm.$valid);
-
-        //console.log("form action: save");
-
-        // check to make sure the form is completely valid
-
-        //if form is not valid then return out of save function
-        if (!$scope.playerForm.$valid) {
+        //CHECK FORM VALIDITY
+        $scope.$broadcast('show-errors-check-validity'); //show fields with validation errors even if fields empty
+        //return if form is invalid
+        if ($scope.playerForm.$invalid) {
             return;
         }
+
+
+        //SAVE FORM DATA to mongo
 
         // add a player to the playerslist
         vm.playerlist.push({
@@ -105,17 +105,23 @@ module.controller('playersController', function ($scope, alertService) {
             jerseynumber: vm.playerData.jerseynumber
         });
 
-        // after our player has been added, clear the form
+
+        //CLEAR FORM
         vm.playerData = {};
 
-        //show success message
+
+        //SHOW RESULT MESSAGE
         alertService.add("success", "Record Added Successfully");
 
+
+        //CLEAR VALIDATION
         vm.reset();
+
     }
+    //-end save
 
 
-    // reset player form
+    //reset validation & clear form
     vm.reset = function () {
         //console.log("form action:  reset");
         $scope.$broadcast('show-errors-reset');
