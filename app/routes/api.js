@@ -11,12 +11,13 @@ module.exports = function (app, express) {
     // Test api using [siteurl]/api
     // ----------------------------------------------------
     apiRouter.get('/', function (req, res) {
-        res.json({message: 'this is the player api'});
+        res.json({message: 'this is the main api'});
     });
 
 
     // route: /users
-    // Create player & Get all players
+    // Create player
+    // Get all players
     // ----------------------------------------------------
     apiRouter.route('/players')
 
@@ -24,17 +25,18 @@ module.exports = function (app, express) {
         .post(function (req, res) {
 
             //test - log request
-            console.log(req);
+            console.log(req.body.name);
 
             //set model
             var player = new Player();		// new instance of the model
+
             //set the model's data from Post request (req)
-            player.name = req.body.playerData.name;
-            player.jerseynumber = req.body.playerData.jerseynumber;
-            player.attributes.hand = req.body.playerData.hand;
+            player.name = req.body.name;
+            player.jerseynumber = req.body.jerseynumber;
+            player.attributes.hand = req.body.attributes.hand;
 
             //save model
-            user.save(function (err) {
+            player.save(function (err) {
                 if (err) {
                     // duplicate entry
                     if (err.code == 11000)

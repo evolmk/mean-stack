@@ -3,6 +3,7 @@
         <div class="col-md-12">
 
             <h1>NHL Players</h1>
+            <span ng-if="players.getprocessing" class="loading"><i class="fa fa-spinner fa-spin"></i>Fetching data</span>
 
             <!-- without $scope - controller as -->
             <div class="row">
@@ -12,7 +13,7 @@
 
 
                     <!-- Table - list players -->
-                    <table class="table table-condensed table-hover">
+                    <table class="table table-condensed table-hover" ng-if="!players.getprocessing">
                         <thead>
                         <tr>
                             <th>Name</th>
@@ -24,7 +25,7 @@
                         <tbody>
                         <tr ng-repeat="player in players.playerlist">
                             <td>{{ player.name }}</td>
-                            <td>{{ player.hand }}</td>
+                            <td>{{ player.attributes.hand }}</td>
                             <td>{{ player.jerseynumber }}</td>
                             <td>Edit &nbsp; Delete</td>
                         </tr>
@@ -46,14 +47,12 @@
                         <div class="form-group" show-errors>
                             <label>Name <sup>*</sup></label>
                             <input type="text" name="name" class="form-control" placeholder="Name" ng-model="players.playerData.name" ng-minlength="2" ng-maxlength="20" required>
-
                             <p class="help-block" ng-if="playerForm.name.$error.required">Name is required</p>
-
                             <p class="help-block" ng-show="playerForm.name.$error.minlength">Name must be at least 2 characters</p>
                         </div>
                         <div class="form-group" show-errors>
-                            <label>Hand</label>
-                            <select name="hand" class="form-control input-select" ng-model="players.playerData.hand" required>
+                            <label>Hand <sup>*</sup></label>
+                            <select name="hand" class="form-control input-select" ng-model="players.playerData.attributes.hand" required>
                                 <option value="">select</option>
                                 <option ng-repeat="hand in players.handoptions" value="{{hand.name}}">{{hand.value}}</option>
                             </select>
@@ -61,14 +60,14 @@
                             <p class="help-block" ng-if="playerForm.hand.$error.required">Hand is required</p>
                         </div>
                         <div class="form-group" show-errors>
-                            <label>Jersey Number</label>
+                            <label>Jersey Number <sup>*</sup></label>
                             <input type="text" name="jerseynumber" class="form-control input-number" placeholder="#" ng-model="players.playerData.jerseynumber" filter-number-only required>
-
                             <p class="help-block" ng-if="playerForm.jerseynumber.$error.required">Jersey Number is required</p>
                         </div>
                         <div class="form-buttons">
-                            <button type="submit" class="btn btn-green marginr-20" ng-click="players.save()">Add Player</button>
+                            <button type="submit" class="btn btn-green marginr-20" ng-click="players.savePlayer()">Add Player</button>
                             <button class="btn btn-sm" ng-click="players.reset()">Reset</button>
+                            <span ng-if="players.formprocessing" class="loading"><i class="fa fa-spinner fa-spin"></i>Processing Form</span>
                         </div>
                     </form>
 
