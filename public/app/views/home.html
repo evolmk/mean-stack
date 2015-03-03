@@ -1,4 +1,4 @@
-<div class="container" ng-controller="playersController as players">
+<div class="container" ng-controller="playerController as players">
     <div class="row">
         <div class="col-md-12">
 
@@ -54,7 +54,7 @@
                         <div class="form-group" show-errors>
                             <label>Hand</label>
                             <select name="hand" class="form-control input-select" ng-model="players.playerData.hand" required>
-                                <option value="">-- select --</option>
+                                <option value="">select</option>
                                 <option ng-repeat="hand in players.handoptions" value="{{hand.name}}">{{hand.value}}</option>
                             </select>
 
@@ -62,7 +62,7 @@
                         </div>
                         <div class="form-group" show-errors>
                             <label>Jersey Number</label>
-                            <input type="text" name="jerseynumber" class="form-control input-number" placeholder="#" ng-model="players.playerData.jerseynumber" number-filter required>
+                            <input type="text" name="jerseynumber" class="form-control input-number" placeholder="#" ng-model="players.playerData.jerseynumber" filter-number-only required>
 
                             <p class="help-block" ng-if="playerForm.jerseynumber.$error.required">Jersey Number is required</p>
                         </div>

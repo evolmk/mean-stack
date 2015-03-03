@@ -8,21 +8,21 @@ angular.module('app.routes', ['ngRoute'])
             // route for /  (home)
             .when('/', {
                 templateUrl: 'app/views/home.html',
-                controller  : 'mainController',
-                controllerAs: 'main'
+                controller: 'templateController',
+                controllerAs: 'home'
             })
 
             // route for /about
             .when('/about', {
                 templateUrl: 'app/views/about.html',
-                controller  : 'mainController',
+                controller: 'templateController',
                 controllerAs: 'about'
             })
 
             // route for /contact
             .when('/contact', {
                 templateUrl: 'app/views/contact.html',
-                controller  : 'mainController',
+                controller: 'templateController',
                 controllerAs: 'contact'
             });
 
