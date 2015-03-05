@@ -21,7 +21,7 @@ meanApp.config(['showErrorsConfigProvider', function (showErrorsConfigProvider) 
 
 //DIRECTIVES
 
-// angular-bootstrap show-errors
+// numbers only
 meanApp.directive('filterNumberOnly', function () {
     return {
         require: '?ngModel',
