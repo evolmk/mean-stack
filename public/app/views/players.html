@@ -1,0 +1,106 @@
+<div class="container" ng-controller="playerController as players">
+    <div class="row">
+        <div class="col-md-12">
+
+            <h1>NHL Players</h1>
+            <span ng-if="players.getprocessing" class="loading"><i class="fa fa-spinner fa-spin"></i>Fetching data</span>
+
+            <!-- without $scope - controller as -->
+            <div class="row">
+
+                <!--leftcol-->
+                <div class="col-md-7 margin-30">
+
+
+                    <!-- Table - list players -->
+                    <p>
+                        <select name="hand" class="form-control input-select" ng-model="players.playerData.attributes.hand" required>
+                            <option value="">..with selection</option>
+                            <option ng-repeat="hand in players.handoptions" value="{{hand.name}}">{{hand.value}}</option>
+                        </select>
+                    </p>
+
+                    <table class="mGrid delete-hover" ng-if="!players.getprocessing">
+                        <thead>
+                        <tr>
+                            <th style="max-width:50px;"></th>
+                            <th title="Sort by Name">Name</th>
+                            <th title="Sort by Hand">Hand</th>
+                            <th title="Sort by No.">Jersey No.</th>
+                            <th title="Sort by Update Date">Updated</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="player in players.playerlist" ng-class="{'hover-red': deletehover}">
+                            <td><input type="checkbox"></td>
+                            <td>
+                                <a href="#" title="View {{ player.name }}" class="font-13px font-semibold">{{ player.name }}</a>
+                            </td>
+                            <td>{{ player.attributes.hand }}</td>
+                            <td>{{ player.jerseynumber }}</td>
+                            <td>{{player.updated | fromNow}}</td>
+                            <td>
+                                <a ng-href="/players/{{ player._id }}" class="btn btn-ico icoedit marginr-15" title="Edit"></a>
+                                <!--<a href="#" class="btn btn-ico icodelete redbg" title="Delete" ng-mouseenter="deletehover=true" ng-mouseleave="deletehover=false"></a>-->
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <!--//end-leftcol-->
+
+
+                <!--rightcol-->
+                <div class="col-md-4 col-md-offset-1 margin-30">
+
+                    <!-- Form - add player to the list -->
+                    <h3>Add Player</h3>
+
+                    <form name="playerForm" novalidate>
+
+                        <div class="form-group" show-errors>
+                            <label>Name <sup>*</sup></label>
+                            <input type="text" name="name" class="form-control" placeholder="Name" ng-model="players.playerData.name" ng-minlength="2" ng-maxlength="20" required>
+
+                            <p class="help-block" ng-if="playerForm.name.$error.required">Name is required</p>
+
+                            <p class="help-block" ng-show="playerForm.name.$error.minlength">Name must be at least 2 characters</p>
+                        </div>
+                        <div class="form-group" show-errors>
+                            <label>Hand <sup>*</sup></label>
+                            <select name="hand" class="form-control input-select" ng-model="players.playerData.attributes.hand" required>
+                                <option value="">select</option>
+                                <option ng-repeat="hand in players.handoptions" value="{{hand.name}}">{{hand.value}}</option>
+                            </select>
+
+                            <p class="help-block" ng-if="playerForm.hand.$error.required">Hand is required</p>
+                        </div>
+                        <div class="form-group" show-errors>
+                            <label>Jersey Number <sup>*</sup></label>
+                            <input type="text" name="jerseynumber" class="form-control input-number" placeholder="#" ng-model="players.playerData.jerseynumber" filter-number-only required>
+
+                            <p class="help-block" ng-if="playerForm.jerseynumber.$error.required">Jersey Number is required</p>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="submit" class="btn btn-green marginr-20" ng-click="players.savePlayer()">Add Player</button>
+                            <button class="btn btn-sm marginr-20" ng-click="players.reset()">Reset</button>
+                            <span ng-if="players.formprocessing" class="loading"><i class="fa fa-spinner fa-spin"></i>Processing</span>
+                        </div>
+                    </form>
+
+
+                    </h3>
+                    <!--//end-rightcol-->
+
+
+                </div>
+                <!--//end-row-->
+
+            </div>
+            <!--//end-col-md-12-->
+        </div>
+        <!--//end-row-->
+    </div>
+    <!--//end-container-->

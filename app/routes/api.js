@@ -15,6 +15,11 @@ module.exports = function (app, express) {
     });
 
 
+    //=====================================================
+    //PLAYERS
+    //=====================================================
+
+
     // route: /users
     // Create player
     // Get all players
@@ -23,14 +28,10 @@ module.exports = function (app, express) {
 
         // create
         .post(function (req, res) {
+            //new instance of the model
+            var player = new Player();
 
-            //test - log request
-            console.log(req.body.name);
-
-            //set model
-            var player = new Player();		// new instance of the model
-
-            //set the model's data from Post request (req)
+            //set the model data from Post request (req)
             player.name = req.body.name;
             player.jerseynumber = req.body.jerseynumber;
             player.attributes.hand = req.body.attributes.hand;
@@ -40,13 +41,13 @@ module.exports = function (app, express) {
                 if (err) {
                     // duplicate entry
                     if (err.code == 11000)
-                        return res.json({success: false, message: 'Error - entry is a dupicate'});
+                        return res.json({success: false, message: 'Error - entry is a duplicate'});
                     else
                         return res.send(err);
                 }
 
                 // success - return result
-                res.json({result: 'Player created successfully. (json)'});
+                res.json({result: req.body.name + ' created successfully.'});
             });
 
         })
@@ -60,6 +61,14 @@ module.exports = function (app, express) {
                 res.json(players);
             });
         });
+    //end players api
+
+
+    //=====================================================
+    //API NAME
+    //=====================================================
+
+
 
 
     return apiRouter;

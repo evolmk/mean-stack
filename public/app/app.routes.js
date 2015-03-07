@@ -8,22 +8,19 @@ angular.module('app.routes', ['ngRoute'])
             // route for /  (home)
             .when('/', {
                 templateUrl: 'app/views/home.html',
-                controller: 'templateController',
-                controllerAs: 'home'
+                controller: 'templateController'
             })
 
             // route for /about
-            .when('/about', {
-                templateUrl: 'app/views/about.html',
-                controller: 'templateController',
-                controllerAs: 'about'
+            .when('/players', {
+                templateUrl: 'app/views/players.html',
+                controller: 'playerController'
             })
 
             // route for /contact
             .when('/contact', {
                 templateUrl: 'app/views/contact.html',
-                controller: 'templateController',
-                controllerAs: 'contact'
+                controller: 'templateController'
             });
 
         $locationProvider.html5Mode(true);

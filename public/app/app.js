@@ -2,6 +2,7 @@ var meanApp = angular.module('meanApp', [
     'app.routes',
     'ui.bootstrap',
     'ui.bootstrap.showErrors',
+    'angularMoment',
     'templateService',
     'userService',
     'playerService',
@@ -45,5 +46,35 @@ meanApp.directive('filterNumberOnly', function () {
                 }
             });
         }
+    };
+});
+
+meanApp.directive('showonhoverparent', function () {
+    return {
+        link: function (scope, element, attrs) {
+            element.parent().bind('mouseenter', function () {
+                element.show();
+            });
+            element.parent().bind('mouseleave', function () {
+                element.hide();
+            });
+        }
+    };
+});
+
+
+//FILTERS
+
+//return html as trusted
+meanApp.filter('asHtml', function ($sce) {
+    return function (val) {
+        return $sce.trustAsHtml(val);
+    };
+});
+
+//return date using momentjs
+meanApp.filter('fromNow', function () {
+    return function (date) {
+        return moment(date).fromNow();
     };
 });

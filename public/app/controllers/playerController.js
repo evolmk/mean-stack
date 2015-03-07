@@ -74,24 +74,21 @@ _this.controller('playerController', function (Player, $scope, $timeout, alertSe
         //SAVE FORM DATA to mongo
         vm.formprocessing = true;
 
-        $timeout(function () {
+        // use the create function in the playerService
+        Player.create(vm.playerData)
+            .success(function (data) {
+                //show success message
+                alertService.clearAlerts(); //clear first
+                alertService.add("success", data.result);
+                //clear validation & form
+                vm.reset();
+                vm.formprocessing = false;
+                vm.playerData = {};
+            });
 
-            // use the create function in the playerService
-            Player.create(vm.playerData)
-                .success(function (data) {
-                    //show success message
-                    alertService.clearAlerts(); //clear first
-                    alertService.add("success", vm.playerData.name + " Added Successfully");
-                    //clear validation & form
-                    vm.reset();
-                    vm.formprocessing = false;
-                    vm.playerData = {};
-                });
+        //after action - update data grid
+        vm.getAll();
 
-            //after action - update data grid
-            vm.getAll();
-
-        }, 500);
 
     };
     //end save
