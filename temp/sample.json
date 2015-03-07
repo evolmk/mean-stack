@@ -1,0 +1,1146 @@
+/* 0 */
+{
+  "_id": ObjectId
+  (
+  "546f63616d12510358651345"
+  ),
+  "DateModified": ISODate
+  (
+  "2011-11-21T05:00:00.000Z"
+  ),
+  "DateLaunch": ISODate
+  (
+  "2011-11-21T00:00:00.000Z"
+  ),
+  "Name": "Joel Harper Fitness",
+  "UrlSlug": "joel-harper-fitness",
+  "Summary": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.</p>",
+  "Details": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. ?Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.</p>",
+  "WebsiteURL": "http://www.joelharperfitness.com",
+  "SortOrder": 95,
+  "ProjectPhotos": [
+    {
+      "_id": ObjectId
+      (
+      "547541af6d125312b8a87115"
+      ),
+      "DateModified": ISODate
+      (
+      "2014-11-26T02:57:51.912Z"
+      ),
+      "FolderPath": "/img/projects/joel-harper-fitness/",
+      "Filename": "thumb-joelharperfitness.jpg",
+      "Title": "",
+      "Type": "grid",
+      "SortOrder": 1
+    },
+    {
+      "_id": ObjectId
+      (
+      "547a9c786d125710049e39b1"
+      ),
+      "DateModified": ISODate
+      (
+      "2014-11-30T04:26:32.450Z"
+      ),
+      "FolderPath": "/img/projects/joel-harper-fitness/",
+      "Filename": "joelharperfitness-home.png",
+      "Title": "",
+      "Type": "project",
+      "SortOrder": 2
+    },
+    {
+      "_id": ObjectId
+      (
+      "547a9c786d125710049e39b2"
+      ),
+      "DateModified": ISODate
+      (
+      "2014-11-30T04:26:32.499Z"
+      ),
+      "FolderPath": "/img/projects/joel-harper-fitness/",
+      "Filename": "joelharperfitness-store.png",
+      "Title": "",
+      "Type": "project",
+      "SortOrder": 3
+    },
+    {
+      "_id": ObjectId
+      (
+      "547a9cfb6d125710049e39b3"
+      ),
+      "DateModified": ISODate
+      (
+      "2014-11-30T04:28:43.399Z"
+      ),
+      "FolderPath": "/img/projects/joel-harper-fitness/",
+      "Filename": "joelharperfitness-home-zoom.png",
+      "Title": "",
+      "Type": "project",
+      "SortOrder": 1
+    }
+  ],
+  "Tags": [
+    {
+      "_id": ObjectId
+      (
+      "5456bcadf0e764b186e6820d"
+      ),
+      "DateModified": ISODate
+      (
+      "2014-11-28T21:19:48.425Z"
+      ),
+      "Name": "CSS",
+      "UrlSlug": "css",
+      "Count": 0
+    },
+    {
+      "_id": ObjectId
+      (
+      "5456bcadf0e764b186e6820c"
+      ),
+      "DateModified": ISODate
+      (
+      "2014-11-28T21:19:48.425Z"
+      ),
+      "Name": "HTML",
+      "UrlSlug": "html",
+      "Count": 0
+    },
+    {
+      "_id": ObjectId
+      (
+      "5456bcadf0e764b186e6820f"
+      ),
+      "DateModified": ISODate
+      (
+      "2014-11-28T21:19:48.425Z"
+      ),
+      "Name": "jQuery",
+      "UrlSlug": "jquery",
+      "Count": 0
+    }
+  ],
+  "Type": "HTML Website"
+}
+
+/* 1 */
+{
+"_id": ObjectId("5472663d6d12511798378e81"),
+"DateModified": ISODate("2011-11-23T05:00:00.000Z"),
+"DateLaunch": ISODate("2011-11-23T00:00:00.000Z"),
+"Name": "Melissa Raffay",
+"UrlSlug": "melissa-raffay-website",
+"Type" : "ASP.NET Website",
+"Summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;",
+"Details": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. &nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL": "http://www.homesforsalemonmouthcountynj.com/",
+"SortOrder": 85,
+"Tags" : [
+{
+"_id": ObjectId("5455b752982f36980fc29b2f"),
+"DateModified": ISODate("2014-11-26T00:18:57.160Z"),
+"Name": "ASP.NET VB",
+"UrlSlug" : "asp-net-vb",
+"Count": 0
+},
+{
+"_id" : ObjectId("5455b7a8982f36980fc29b32"),
+"DateModified": ISODate("2014-11-26T00:18:57.160Z"),
+"Name": "CMS",
+"UrlSlug": "cms",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456bcadf0e764b186e6820d"),
+"DateModified": ISODate("2014-11-26T00:18:57.160Z"),
+"Name": "CSS",
+"UrlSlug": "css",
+"Count" : 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e68212"),
+"DateModified": ISODate("2014-11-26T00:18:57.160Z"),
+"Name" : "Lead Forms",
+"UrlSlug": "lead-forms",
+"Count": 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e68211"),
+"DateModified": ISODate("2014-11-26T00:18:57.160Z"),
+"Name": "Logo",
+"UrlSlug": "logo",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5470c35c6d125112ac49c4fe"),
+"DateModified": ISODate("2014-11-26T00:18:57.160Z"),
+"Name": "MySQL Database",
+"UrlSlug" : "mysql-database",
+"Count": 0
+},
+{
+"_id" : ObjectId("5456c336f0e764b186e68213"),
+"DateModified": ISODate("2014-11-26T00:18:57.160Z"),
+"Name": "Wordpress",
+"UrlSlug": "wordpress",
+"Count": 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("5475418d6d125312b8a87113"),
+"DateModified": ISODate("2014-11-26T02:57:17.380Z"),
+"FolderPath": "/img/projects/melissa-raffay-website/",
+"Filename" : "thumb-melissaraffay.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547aa2576d125710049e39c0"),
+"DateModified": ISODate("2014-11-30T04:51:35.229Z"),
+"FolderPath": "/img/projects/melissa-raffay-website/",
+"Filename": "bitkee-home-zoom.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 1
+},
+{
+"_id": ObjectId("547aa2576d125710049e39c1"),
+"DateModified": ISODate("2014-11-30T04:51:35.288Z"),
+"FolderPath": "/img/projects/melissa-raffay-website/",
+"Filename": "bitkee-home.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 2
+}
+]
+}
+/* 2 */
+{
+"_id": ObjectId("545d2e256d125d0b60cc72a6"),
+"DateModified" : ISODate("2014-11-12T05:00:00.000Z"),
+"DateLaunch": ISODate("2014-11-12T00:00:00.000Z"),
+"Name": "Pixel Masher",
+"UrlSlug": "pixel-masher",
+"Summary": "<p>Project summary goes here, this should maybe be 1-3 sentences.</p>",
+"Details": "<p>Project details goes here, this should be 1-2 paragraphs.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL" : "http://www.pixelmasher.net",
+"SortOrder": 20,
+"Tags": [
+{
+"_id": ObjectId("5470c2926d125112ac49c4fd"),
+"DateModified": ISODate("2014-11-25T23:42:06.537Z"),
+"Name": "ASP.NET C#",
+"UrlSlug" : "asp-net-c",
+"Count": 0
+},
+{
+"_id" : ObjectId("5456bcadf0e764b186e6820f"),
+"DateModified": ISODate("2014-11-25T23:42:06.537Z"),
+"Name": "jQuery",
+"UrlSlug": "jquery",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5470c3646d125112ac49c4ff"),
+"DateModified": ISODate("2014-11-25T23:42:06.537Z"),
+"Name": "MongoDB",
+"UrlSlug": "mongodb",
+"Count" : 0
+},
+{
+"_id": ObjectId("5455b7a8982f36980fc29b30"),
+"DateModified": ISODate("2014-11-25T23:42:06.537Z"),
+"Name" : "MVC",
+"UrlSlug": "mvc",
+"Count": 0
+},
+{
+"_id": ObjectId("545d28586d125b0b60ed6e45"),
+"DateModified": ISODate("2014-11-25T23:42:06.537Z"),
+"Name": "Responsive",
+"UrlSlug": "responsive",
+"Count": 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("547541546d125312b8a8710e"),
+"DateModified": ISODate("2014-11-26T02:56:20.112Z"),
+"FolderPath": "/img/projects/pixel-masher/",
+"Filename" : "thumb-pixelmasher.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547aa1c46d125710049e39ba"),
+"DateModified": ISODate("2014-11-30T04:49:08.568Z"),
+"FolderPath": "/img/projects/pixel-masher/",
+"Filename": "pixelmasher-cmshome.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 2
+},
+{
+"_id": ObjectId("547aa1c46d125710049e39bb"),
+"DateModified": ISODate("2014-11-30T04:49:08.612Z"),
+"FolderPath": "/img/projects/pixel-masher/",
+"Filename": "pixelmasher-cmshome-zoom.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 1
+}
+],
+"Type": "ASP.NET MVC Website"
+}
+/* 3 */
+{
+"_id": ObjectId("545408656d125201dcb66549"),
+"DateModified": ISODate("2014-11-07T05:00:00.000Z"),
+"DateLaunch": ISODate("2014-11-07T00:00:00.000Z"),
+"Name": "Moviecube",
+"UrlSlug": "moviecube-website",
+"Summary": "<p>Lorem ipsum dolor sit amet, consectetur</p>",
+"Details" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. &nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL": "http://moviecube.pixelmasher.net",
+"SortOrder": 90,
+"Tags": [
+{
+"_id": ObjectId("5455b752982f36980fc29b2f"),
+"DateModified": ISODate("2014-11-22T17:19:20.886Z"),
+"Name": "ASP.NET VB",
+"UrlSlug" : "asp-net-vb",
+"Count": 0
+},
+{
+"_id" : ObjectId("5455b7a8982f36980fc29b32"),
+"DateModified": ISODate("2014-11-22T17:19:20.886Z"),
+"Name": "CMS",
+"UrlSlug": "cms",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456bcadf0e764b186e6820d"),
+"DateModified": ISODate("2014-11-22T17:19:20.886Z"),
+"Name": "CSS",
+"UrlSlug": "css",
+"Count" : 0
+},
+{
+"_id": ObjectId("5456c344f0e764b186e68216"),
+"DateModified": ISODate("2014-11-22T17:19:20.886Z"),
+"Name" : "Marketing",
+"UrlSlug": "marketing",
+"Count": 0
+},
+{
+"_id": ObjectId("5455b7a8982f36980fc29b31"),
+"DateModified": ISODate("2014-11-22T17:19:20.886Z"),
+"Name": "SQL Database",
+"UrlSlug": "sql-database",
+"Count": 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("547541a36d125312b8a87114"),
+"DateModified": ISODate("2014-11-26T02:57:39.645Z"),
+"FolderPath": "/img/projects/moviecube-website/",
+"Filename" : "thumb-moviecube.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547aa2606d125710049e39c2"),
+"DateModified": ISODate("2014-11-30T04:51:44.011Z"),
+"FolderPath": "/img/projects/moviecube-website/",
+"Filename": "bitkee-home-zoom.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 1
+},
+{
+"_id": ObjectId("547aa2606d125710049e39c3"),
+"DateModified": ISODate("2014-11-30T04:51:44.071Z"),
+"FolderPath": "/img/projects/moviecube-website/",
+"Filename": "bitkee-home.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 2
+}
+],
+"Type": "ASP.NET Website"
+}
+/* 4 */
+{
+"_id": ObjectId("5454083f6d125201dcb66546"),
+"DateModified": ISODate("2014-11-07T05:00:00.000Z"),
+"DateLaunch": ISODate("2014-11-07T00:00:00.000Z"),
+"Name": "Transcaer",
+"UrlSlug": "transcaer-website",
+"Summary": "<p>Lorem ipsum dolor sit amet, consectetur</p>",
+"Details" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. &nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL": "http://www.transcaer.com",
+"SortOrder": 15,
+"Tags": [
+{
+"_id": ObjectId("5455b752982f36980fc29b2f"),
+"DateModified": ISODate("2014-11-22T19:46:30.273Z"),
+"Name": "ASP.NET VB",
+"UrlSlug" : "asp-net-vb",
+"Count": 0
+},
+{
+"_id" : ObjectId("5455b7a8982f36980fc29b32"),
+"DateModified": ISODate("2014-11-22T19:46:30.273Z"),
+"Name": "CMS",
+"UrlSlug": "cms",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456bcadf0e764b186e6820d"),
+"DateModified": ISODate("2014-11-22T19:46:30.273Z"),
+"Name": "CSS",
+"UrlSlug": "css",
+"Count" : 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e6820f"),
+"DateModified": ISODate("2014-11-22T19:46:30.273Z"),
+"Name" : "jQuery",
+"UrlSlug": "jquery",
+"Count": 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e68212"),
+"DateModified": ISODate("2014-11-22T19:46:30.273Z"),
+"Name": "Lead Forms",
+"UrlSlug": "lead-forms",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5455b7a8982f36980fc29b31"),
+"DateModified": ISODate("2014-11-22T19:46:30.273Z"),
+"Name": "SQL Database",
+"UrlSlug" : "sql-database",
+"Count": 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("547541486d125312b8a8710d"),
+"DateModified": ISODate("2014-11-26T02:56:08.065Z"),
+"FolderPath": "/img/projects/transcaer-website/",
+"Filename" : "thumb-transcaer.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547a9f196d125710049e39b6"),
+"DateModified": ISODate("2014-11-30T04:37:45.894Z"),
+"FolderPath": "/img/projects/transcaer-website/",
+"Filename": "transcaer-home-zoom.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 1
+},
+{
+"_id": ObjectId("547a9f196d125710049e39b7"),
+"DateModified": ISODate("2014-11-30T04:37:45.955Z"),
+"FolderPath": "/img/projects/transcaer-website/",
+"Filename": "transcaer-home.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 2
+}
+],
+"Type": "ASP.NET Website"
+}
+/* 5 */
+{
+"_id": ObjectId("5454085a6d125201dcb66548"),
+"DateModified": ISODate("2014-11-07T05:00:00.000Z"),
+"DateLaunch": ISODate("2014-11-07T00:00:00.000Z"),
+"Name": "SEO Analysis Tool",
+"UrlSlug": "teknicks-seo-tool",
+"Summary": "<p>Lorem ipsum dolor sit amet, consectetur</p>",
+"Details" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. &nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL": "http://teknicksseotool.pixelmasher.net",
+"SortOrder": 150,
+"Tags": [
+{
+"_id": ObjectId("5455b752982f36980fc29b2f"),
+"DateModified": ISODate("2014-11-23T23:06:01.154Z"),
+"Name": "ASP.NET VB",
+"UrlSlug" : "asp-net-vb",
+"Count": 0
+},
+{
+"_id" : ObjectId("5455b7a8982f36980fc29b32"),
+"DateModified": ISODate("2014-11-23T23:06:01.154Z"),
+"Name": "CMS",
+"UrlSlug": "cms",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5455b7a8982f36980fc29b31"),
+"DateModified": ISODate("2014-11-23T23:06:01.154Z"),
+"Name": "SQL Database",
+"UrlSlug": "sql-database",
+"Count" : 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("547541c76d125312b8a87117"),
+"DateModified": ISODate("2014-11-26T02:58:15.278Z"),
+"FolderPath": "/img/projects/teknicks-seo-tool/",
+"Filename" : "thumb-seoanalysistool.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547aa2756d125710049e39c6"),
+"DateModified": ISODate("2014-11-30T04:52:05.027Z"),
+"FolderPath": "/img/projects/teknicks-seo-tool/",
+"Filename": "bitkee-home-zoom.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 1
+},
+{
+"_id": ObjectId("547aa2756d125710049e39c7"),
+"DateModified": ISODate("2014-11-30T04:52:05.085Z"),
+"FolderPath": "/img/projects/teknicks-seo-tool/",
+"Filename": "bitkee-home.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 2
+}
+],
+"Type": "ASP.NET Webapp"
+}
+/* 6 */
+{
+"_id": ObjectId("54542d296d125c1cfcccca6b"),
+"DateModified": ISODate("2014-11-07T05:00:00.000Z"),
+"DateLaunch": ISODate("2014-11-07T00:00:00.000Z"),
+"Name": "Realty Atlantic",
+"UrlSlug": "realty-atlantic-website",
+"Summary": "<p>Lorem ipsum dolor sit amet, consectetur</p>",
+"Details" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. &nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL": "http://www.realtyatlantic.net",
+"SortOrder": 75,
+"Tags": [
+{
+"_id": ObjectId("5455b7a8982f36980fc29b32"),
+"DateModified": ISODate("2014-11-26T00:19:08.658Z"),
+"Name": "CMS",
+"UrlSlug" : "cms",
+"Count": 0
+},
+{
+"_id" : ObjectId("5456bcadf0e764b186e6820d"),
+"DateModified": ISODate("2014-11-26T00:19:08.658Z"),
+"Name": "CSS",
+"UrlSlug": "css",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456bcadf0e764b186e6820f"),
+"DateModified": ISODate("2014-11-26T00:19:08.658Z"),
+"Name": "jQuery",
+"UrlSlug": "jquery",
+"Count" : 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e68212"),
+"DateModified": ISODate("2014-11-26T00:19:08.658Z"),
+"Name" : "Lead Forms",
+"UrlSlug": "lead-forms",
+"Count": 0
+},
+{
+"_id": ObjectId("5470c35c6d125112ac49c4fe"),
+"DateModified": ISODate("2014-11-26T00:19:08.658Z"),
+"Name": "MySQL Database",
+"UrlSlug": "mysql-database",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456c336f0e764b186e68214"),
+"DateModified": ISODate("2014-11-26T00:19:08.658Z"),
+"Name": "PHP",
+"UrlSlug" : "php",
+"Count": 0
+},
+{
+"_id" : ObjectId("545d28586d125b0b60ed6e45"),
+"DateModified": ISODate("2014-11-26T00:19:08.658Z"),
+"Name": "Responsive",
+"UrlSlug": "responsive",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456c336f0e764b186e68213"),
+"DateModified": ISODate("2014-11-26T00:19:08.658Z"),
+"Name": "Wordpress",
+"UrlSlug": "wordpress",
+"Count" : 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("547541766d125312b8a87111"),
+"DateModified": ISODate("2014-11-26T02:56:54.730Z"),
+"FolderPath": "/img/projects/realty-atlantic-website/",
+"Filename" : "thumb-realtyatlantic.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547aa2476d125710049e39bc"),
+"DateModified": ISODate("2014-11-30T04:51:19.514Z"),
+"FolderPath": "/img/projects/realty-atlantic-website/",
+"Filename": "bitkee-home-zoom.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 1
+},
+{
+"_id": ObjectId("547aa2476d125710049e39bd"),
+"DateModified": ISODate("2014-11-30T04:51:19.567Z"),
+"FolderPath": "/img/projects/realty-atlantic-website/",
+"Filename": "bitkee-home.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 2
+}
+],
+"Type": "Wordpress Website"
+}
+/* 7 */
+{
+"_id": ObjectId("5454404d6d125a11d43761f8"),
+"DateModified": ISODate("2014-11-07T05:00:00.000Z"),
+"DateLaunch": ISODate("2014-11-07T00:00:00.000Z"),
+"Name": "JJ Blankenburg",
+"UrlSlug": "jj-blankenburg-website",
+"Summary": "<p>Lorem ipsum dolor sit amet, consectetur</p>",
+"Details" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. &nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL": "http://www.jjpalmcoast.com",
+"SortOrder": 80,
+"Tags": [
+{
+"_id": ObjectId("5455b7a8982f36980fc29b32"),
+"DateModified": ISODate("2014-11-23T23:05:33.689Z"),
+"Name": "CMS",
+"UrlSlug" : "cms",
+"Count": 0
+},
+{
+"_id" : ObjectId("5456bcadf0e764b186e6820d"),
+"DateModified": ISODate("2014-11-23T23:05:33.689Z"),
+"Name": "CSS",
+"UrlSlug": "css",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456bcadf0e764b186e6820f"),
+"DateModified": ISODate("2014-11-23T23:05:33.689Z"),
+"Name": "jQuery",
+"UrlSlug": "jquery",
+"Count" : 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e68212"),
+"DateModified": ISODate("2014-11-23T23:05:33.689Z"),
+"Name" : "Lead Forms",
+"UrlSlug": "lead-forms",
+"Count": 0
+},
+{
+"_id": ObjectId("5456c336f0e764b186e68214"),
+"DateModified": ISODate("2014-11-23T23:05:33.689Z"),
+"Name": "PHP",
+"UrlSlug": "php",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("545d28586d125b0b60ed6e45"),
+"DateModified": ISODate("2014-11-23T23:05:33.689Z"),
+"Name": "Responsive",
+"UrlSlug" : "responsive",
+"Count": 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("547541826d125312b8a87112"),
+"DateModified": ISODate("2014-11-26T02:57:06.845Z"),
+"FolderPath": "/img/projects/jj-blankenburg-website/",
+"Filename" : "thumb-jjblankenburg.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547aa24f6d125710049e39be"),
+"DateModified": ISODate("2014-11-30T04:51:27.728Z"),
+"FolderPath": "/img/projects/jj-blankenburg-website/",
+"Filename": "bitkee-home-zoom.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 1
+},
+{
+"_id": ObjectId("547aa24f6d125710049e39bf"),
+"DateModified": ISODate("2014-11-30T04:51:27.769Z"),
+"FolderPath": "/img/projects/jj-blankenburg-website/",
+"Filename": "bitkee-home.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 2
+}
+],
+"Type": "Wordpress Website"
+}
+/* 8 */
+{
+"_id": ObjectId("545407fd6d125201dcb66545"),
+"DateModified": ISODate("2014-11-07T05:00:00.000Z"),
+"DateLaunch": ISODate("2014-11-07T00:00:00.000Z"),
+"Name": "Teknicks",
+"UrlSlug": "teknicks-website",
+"Summary": "<p>Lorem ipsum dolor sit amet, consectetur</p>",
+"Details" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. &nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL": "http://www.teknicks.com",
+"SortOrder": 60,
+"Tags": [
+{
+"_id": ObjectId("5455b752982f36980fc29b2f"),
+"DateModified": ISODate("2014-11-22T17:18:52.768Z"),
+"Name": "ASP.NET VB",
+"UrlSlug" : "asp-net-vb",
+"Count": 0
+},
+{
+"_id" : ObjectId("5455b7a8982f36980fc29b32"),
+"DateModified": ISODate("2014-11-22T17:18:52.768Z"),
+"Name": "CMS",
+"UrlSlug": "cms",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456bcadf0e764b186e6820d"),
+"DateModified": ISODate("2014-11-22T17:18:52.768Z"),
+"Name": "CSS",
+"UrlSlug": "css",
+"Count" : 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e6820f"),
+"DateModified": ISODate("2014-11-22T17:18:52.768Z"),
+"Name" : "jQuery",
+"UrlSlug": "jquery",
+"Count": 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e68212"),
+"DateModified": ISODate("2014-11-22T17:18:52.768Z"),
+"Name": "Lead Forms",
+"UrlSlug": "lead-forms",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("54615e436d126d1318a74fc3"),
+"DateModified": ISODate("2014-11-22T17:18:52.768Z"),
+"Name": "Modeling 3D",
+"UrlSlug" : "modeling-3d",
+"Count": 0
+},
+{
+"_id" : ObjectId("5455b7a8982f36980fc29b31"),
+"DateModified": ISODate("2014-11-22T17:18:52.768Z"),
+"Name": "SQL Database",
+"UrlSlug": "sql-database",
+"Count": 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("5475415f6d125312b8a8710f"),
+"DateModified": ISODate("2014-11-26T02:56:31.996Z"),
+"FolderPath": "/img/projects/teknicks-website/",
+"Filename" : "thumb-teknicks.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547aa0da6d125710049e39b8"),
+"DateModified": ISODate("2014-11-30T04:45:14.521Z"),
+"FolderPath": "/img/projects/teknicks-website/",
+"Filename": "teknicks-home.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 2
+},
+{
+"_id": ObjectId("547aa0da6d125710049e39b9"),
+"DateModified": ISODate("2014-11-30T04:45:14.543Z"),
+"FolderPath": "/img/projects/teknicks-website/",
+"Filename": "teknicks-home-zoom.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 1
+}
+],
+"Type": "ASP.NET Website"
+}
+/* 9 */
+{
+"_id": ObjectId("5454084c6d125201dcb66547"),
+"DateModified": ISODate("2014-11-07T05:00:00.000Z"),
+"DateLaunch": ISODate("2014-11-07T00:00:00.000Z"),
+"Name": "Bitkee",
+"UrlSlug": "bitkee-website",
+"Summary": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"Details" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. &nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL": "https://bitkee.com",
+"SortOrder": 10,
+"Tags": [
+{
+"_id": ObjectId("5455b752982f36980fc29b2f"),
+"DateModified": ISODate("2014-11-25T23:41:49.261Z"),
+"Name": "ASP.NET VB",
+"UrlSlug" : "asp-net-vb",
+"Count": 0
+},
+{
+"_id" : ObjectId("5455b7a8982f36980fc29b32"),
+"DateModified": ISODate("2014-11-25T23:41:49.261Z"),
+"Name": "CMS",
+"UrlSlug": "cms",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456bcadf0e764b186e6820d"),
+"DateModified": ISODate("2014-11-25T23:41:49.261Z"),
+"Name": "CSS",
+"UrlSlug": "css",
+"Count" : 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e68210"),
+"DateModified": ISODate("2014-11-25T23:41:49.261Z"),
+"Name" : "Ecommerce",
+"UrlSlug": "ecommerce",
+"Count": 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e6820f"),
+"DateModified": ISODate("2014-11-25T23:41:49.261Z"),
+"Name": "jQuery",
+"UrlSlug": "jquery",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456bcadf0e764b186e68211"),
+"DateModified": ISODate("2014-11-25T23:41:49.261Z"),
+"Name": "Logo",
+"UrlSlug" : "logo",
+"Count": 0
+},
+{
+"_id" : ObjectId("54615e436d126d1318a74fc3"),
+"DateModified": ISODate("2014-11-25T23:41:49.261Z"),
+"Name": "Modeling 3D",
+"UrlSlug": "modeling-3d",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("545d28586d125b0b60ed6e45"),
+"DateModified": ISODate("2014-11-25T23:41:49.261Z"),
+"Name": "Responsive",
+"UrlSlug": "responsive",
+"Count" : 0
+},
+{
+"_id": ObjectId("5455b7a8982f36980fc29b31"),
+"DateModified": ISODate("2014-11-25T23:41:49.261Z"),
+"Name" : "SQL Database",
+"UrlSlug": "sql-database",
+"Count": 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("5475413c6d125312b8a8710c"),
+"DateModified": ISODate("2014-11-26T02:55:56.730Z"),
+"FolderPath": "/img/projects/bitkee-website/",
+"Filename" : "thumb-bitkee.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547a94c66d125710049e39a9"),
+"DateModified": ISODate("2014-11-30T03:53:42.870Z"),
+"FolderPath": "/img/projects/bitkee-website/",
+"Filename": "bitkee-orderbeta.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 3
+},
+{
+"_id": ObjectId("547a94c66d125710049e39aa"),
+"DateModified": ISODate("2014-11-30T03:53:42.927Z"),
+"FolderPath": "/img/projects/bitkee-website/",
+"Filename": "bitkee-home.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 2
+},
+{
+"_id" : ObjectId("547a968a6d125710049e39ab"),
+"DateModified": ISODate("2014-11-30T04:01:14.693Z"),
+"FolderPath": "/img/projects/bitkee-website/",
+"Filename": "bitkee-home.jpg",
+"Title": "",
+"Type": "project",
+"SortOrder" : 4
+},
+{
+"_id": ObjectId("547a968a6d125710049e39ac"),
+"DateModified": ISODate("2014-11-30T04:01:14.740Z"),
+"FolderPath" : "/img/projects/bitkee-website/",
+"Filename": "bitkee-orderbeta.jpg",
+"Title": "",
+"Type": "project",
+"SortOrder": 5
+}
+,
+{
+"_id": ObjectId("547a993e6d125710049e39ae"),
+"DateModified": ISODate("2014-11-30T04:12:46.406Z"),
+"FolderPath": "/img/projects/bitkee-website/",
+"Filename" : "bitkee-home-zoom.png",
+"Title": "",
+"Type": "project",
+"SortOrder": 1
+}
+],
+"Type": "ASP.NET Website"
+}
+/* 10 */
+{
+"_id": ObjectId("545442736d125a11d43761f9"),
+"DateModified": ISODate("2014-11-07T05:00:00.000Z"),
+"DateLaunch": ISODate("2014-11-07T00:00:00.000Z"),
+"Name": "dsIDX Search Mod",
+"UrlSlug": "dsidx-search-mod",
+"Summary": "<p>Lorem ipsum dolor sit amet, consectetur</p>",
+"Details" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. &nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL": "http://www.ronhamaty.com/idx",
+"SortOrder": 110,
+"Tags": [
+{
+"_id": ObjectId("5456bcadf0e764b186e6820d"),
+"DateModified": ISODate("2014-11-23T23:05:56.350Z"),
+"Name": "CSS",
+"UrlSlug" : "css",
+"Count": 0
+},
+{
+"_id" : ObjectId("5456bcadf0e764b186e6820f"),
+"DateModified": ISODate("2014-11-23T23:05:56.350Z"),
+"Name": "jQuery",
+"UrlSlug": "jquery",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5470c35c6d125112ac49c4fe"),
+"DateModified": ISODate("2014-11-23T23:05:56.350Z"),
+"Name": "MySQL Database",
+"UrlSlug": "mysql-database",
+"Count" : 0
+},
+{
+"_id": ObjectId("5456c336f0e764b186e68214"),
+"DateModified": ISODate("2014-11-23T23:05:56.350Z"),
+"Name" : "PHP",
+"UrlSlug": "php",
+"Count": 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("547541bd6d125312b8a87116"),
+"DateModified": ISODate("2014-11-26T02:58:05.267Z"),
+"FolderPath": "/img/projects/dsidx-search-mod/",
+"Filename" : "thumb-dsidxsearchmod.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547aa26c6d125710049e39c4"),
+"DateModified": ISODate("2014-11-30T04:51:56.876Z"),
+"FolderPath": "/img/projects/dsidx-search-mod/",
+"Filename": "bitkee-home-zoom.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 1
+},
+{
+"_id": ObjectId("547aa26c6d125710049e39c5"),
+"DateModified": ISODate("2014-11-30T04:51:56.934Z"),
+"FolderPath": "/img/projects/dsidx-search-mod/",
+"Filename": "bitkee-home.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 2
+}
+],
+"Type": "jQuery Plugin"
+}
+/* 11 */
+{
+"_id": ObjectId("54542d076d125b1cfc3af64f"),
+"DateModified": ISODate("2014-11-07T05:00:00.000Z"),
+"DateLaunch": ISODate("2014-11-07T00:00:00.000Z"),
+"Name": "Ron Hamaty",
+"UrlSlug": "ron-hamaty-website",
+"Summary": "<p>Lorem ipsum dolor sit amet, consectetur</p>",
+"Details" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur.&nbsp;?Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem. Maecenas venenatis porttitor ipsum eget efficitur. &nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ornare nibh, eget lobortis sem.&nbsp;</p>",
+"WebsiteURL": "http://www.ronhamaty.com",
+"SortOrder": 70,
+"Tags": [
+{
+"_id": ObjectId("5455b7a8982f36980fc29b32"),
+"DateModified": ISODate("2014-11-26T00:19:01.775Z"),
+"Name": "CMS",
+"UrlSlug" : "cms",
+"Count": 0
+},
+{
+"_id" : ObjectId("5456bcadf0e764b186e6820d"),
+"DateModified": ISODate("2014-11-26T00:19:01.775Z"),
+"Name": "CSS",
+"UrlSlug": "css",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456bcadf0e764b186e6820f"),
+"DateModified": ISODate("2014-11-26T00:19:01.775Z"),
+"Name": "jQuery",
+"UrlSlug": "jquery",
+"Count" : 0
+},
+{
+"_id": ObjectId("5456bcadf0e764b186e68212"),
+"DateModified": ISODate("2014-11-26T00:19:01.775Z"),
+"Name" : "Lead Forms",
+"UrlSlug": "lead-forms",
+"Count": 0
+},
+{
+"_id": ObjectId("5470c35c6d125112ac49c4fe"),
+"DateModified": ISODate("2014-11-26T00:19:01.775Z"),
+"Name": "MySQL Database",
+"UrlSlug": "mysql-database",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456c336f0e764b186e68214"),
+"DateModified": ISODate("2014-11-26T00:19:01.775Z"),
+"Name": "PHP",
+"UrlSlug" : "php",
+"Count": 0
+},
+{
+"_id" : ObjectId("545d28586d125b0b60ed6e45"),
+"DateModified": ISODate("2014-11-26T00:19:01.775Z"),
+"Name": "Responsive",
+"UrlSlug": "responsive",
+"Count": 0
+}
+,
+{
+"_id": ObjectId("5456c336f0e764b186e68213"),
+"DateModified": ISODate("2014-11-26T00:19:01.775Z"),
+"Name": "Wordpress",
+"UrlSlug": "wordpress",
+"Count" : 0
+}
+],
+"ProjectPhotos": [
+{
+"_id": ObjectId("547541696d125312b8a87110"),
+"DateModified": ISODate("2014-11-26T02:56:41.430Z"),
+"FolderPath": "/img/projects/ron-hamaty-website/",
+"Filename" : "thumb-ronhamaty.jpg",
+"Title": "",
+"Type": "grid",
+"SortOrder": 1
+}
+,
+{
+"_id": ObjectId("547aa2b86d125710049e39c8"),
+"DateModified": ISODate("2014-11-30T04:53:12.361Z"),
+"FolderPath": "/img/projects/ron-hamaty-website/",
+"Filename": "bitkee-home-zoom.png",
+"Title" : "",
+"Type": "project",
+"SortOrder": 1
+},
+{
+"_id": ObjectId("547aa2b86d125710049e39c9"),
+"DateModified": ISODate("2014-11-30T04:53:12.400Z"),
+"FolderPath": "/img/projects/ron-hamaty-website/",
+"Filename": "bitkee-home.png",
+"Title": "",
+"Type" : "project",
+"SortOrder": 2
+}
+],
+"Type": "Wordpress Website"
+}
