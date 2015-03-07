@@ -68,17 +68,18 @@
 
 
 <!-- HEADER AND NAVBAR -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar-site navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" dropdown-toggle>
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">MEAN lite</a>
+            <a class="logo" href="/" title="SITENAME">
+                <img src="assets/img/logo/logo-sprite.png" alt="SITENAME" title="SITENAME"/>
+            </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right" ng-controller="navController as nav">
             <ul class="nav navbar-nav">
@@ -126,7 +127,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                &copy; Evol Inc.
+                &copy; Sitename
             </div>
             <div class="col-md-9 text-right">
                 <button class='btn btn-default' ng-click="template.TestAddAlerts()">Test Alerts</button>

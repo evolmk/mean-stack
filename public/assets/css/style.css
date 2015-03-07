@@ -1,7 +1,7 @@
 /* --------------------------------------------------
-FONTS
+FONTS - remove this section if using different font, replace all references to proxima
 -------------------------------------------------- */
-/*proxima nova - site licened*/
+/*proxima nova*/
 @font-face {
     font-family: 'Proxima';
     font-weight: 400;
@@ -59,6 +59,7 @@ FONTS
 /*.font-proxima { font-family: 'Proxima', sans-serif !important; }*/
 /*.font-lato { font-family: 'Lato', sans-serif !important; }*/
 
+/*font shorties*/
 .font-light { font-weight: 300; }
 .font-reg { font-weight: 400; }
 .font-semibold { font-weight: 600; }
@@ -72,7 +73,7 @@ LAYOUT
 
 html { position: relative; height: 100%; }
 body { height: 100%; padding: 0; font-family: 'Proxima', sans-serif; font-weight: 400; font-size: 14px; line-height: 1.53846153; text-rendering: optimizeLegibility; color: #333; }
-/*layout*/
+/*main body*/
 main {
     padding: 100px 0 0 0; /*padding-top is height of fixed nav*/
     min-height: 100%;
@@ -91,14 +92,47 @@ footer { background-color: #f5f5f5; padding-top: 20px; }
 .breadcrumb { padding: 0; margin-bottom: 0; list-style: none; background-color: transparent; border-radius: 0; font-size: 13px; }
 .breadcrumb > li { display: inline-block; }
 .breadcrumb > li + li:before { padding: 0 4px; color: #bbb; content: "/\00a0"; }
+/* --------------------------------------------------
+NAVBAR - line-height of 'ul' & 'ul > li > a' must match height of navbar
+-------------------------------------------------- */
+.navbar-site { background-color: #f5f6f8; width: 100%; z-index: 99; }
+/*height set in @media rule below*/
 
+.navbar-site .navbar-nav { line-height: 70px; }
+/*match navbar-site height, half the height of logo's sprite*/
+
+/*menu item*/
+.navbar-site .navbar-nav > li > a { text-transform: uppercase; color: #2e3131; font-weight: 400; font-size: 14px; letter-spacing: 0.5px; line-height: 70px; }
+/*match navbar-site height*/
+/*menu hover*/
+.navbar-site .navbar-nav > li > a:hover, .navbar-site .navbar-nav > li > a:focus { color: #3289c3; background: #e4e4e4; background: rgba(0, 0, 0, 0.06); }
+/*menu with "active" class*/
+.navbar-site .navbar-nav > .active > a { color: #3289c3; background: none; }
+.navbar-site .navbar-nav > .active > a:hover, .navbar-site .navbar-nav > .active > a:focus { color: #3289c3; background: #e7e7e7; background: rgba(0, 0, 0, 0.04); }
+/*mobile menu*/
+.navbar-site .navbar-toggle { position: relative; float: right; padding: 9px 10px; margin-top: 17px; margin-right: 17px; margin-bottom: 8px; background-color: rgb(174, 176, 179); border: 1px solid transparent; border-radius: 4px; }
+.navbar-site .navbar-toggle .icon-bar { display: block; width: 22px; height: 2px; border-radius: 1px; background-color: #fff; }
+/*navbar when desktop view*/
+@media (min-width: 768px) {
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse { margin-right: -15px; margin-left: -15px; }
+    .navbar-site { height: 70px; }
+    /* Navbar Height */
+    .navbar-site .navbar-nav { float: right; margin: 0; }
+    .navbar-site .navbar-nav > li > a { -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; padding: 0 22px; }
+}
+/*navbar logo sprite - height is 140px, light logo on top half - dark logo on bottom half*/
+.logo { position: relative; float: left; height: 70px; overflow: hidden; margin: 0 0 0 12px; padding: 0; font-size: 18px; line-height: 20px; }
+.logo img { position: relative; top: -70px; }
+/*bottom half of sprite*/
+.logo-ondark { position: relative; float: left; height: 70px; overflow: hidden; margin: 0px 0px 0px 12px; padding: 0; font-size: 18px; line-height: 20px; }
+.logo-ondark img { position: relative; }
 
 
 
 /* --------------------------------------------------
 BOOTSTRAP
 -------------------------------------------------- */
-/*Angular-Bootstrap Fix*/
+/*angular-bootstrap Fix*/
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 /*remove empty href attributes from directive templates*/
 
@@ -137,6 +171,7 @@ BOOTSTRAP
 .form-group {
     margin-bottom: 10px;
 }
+/*label*/
 label {
     display: inline-block;
     max-width: 100%;
@@ -147,7 +182,7 @@ label {
     text-transform: uppercase;
 }
 label sup { font-size: 15px; top: 0; color: #999; }
-
+/*form inputs*/
 .form-control {
     display: block;
     width: 100%;
@@ -312,7 +347,6 @@ hr { border: 0; border-top: 1px solid #C8CACF; margin-top: 20px; margin-bottom: 
 BUTTONS [global]
 -------------------------------------------------- */
 
-/*.btn { font-family: 'Ubuntu', sans-serif; text-transform: uppercase; font-weight: 400; border: 0; font-size: 13px; padding: 10px 30px 11px 30px; border-radius: 3px; color: #686868; background: #dadde0; -webkit-transition: background 0.2s ease-in-out; -moz-transition: background 0.2s ease-in-out; -ms-transition: background 0.2s ease-in-out; -o-transition: background 0.2s ease-in-out; transition: background 0.2s ease-in-out; }*/
 .btn { text-transform: uppercase; font-weight: 400; border: 0; font-size: 13px; padding: 10px 24px 10px 24px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; color: #686868; background: #dadde0; -webkit-transition: background .1s ease-in-out, color .1s ease-in-out, border .1s ease-in-out; -moz-transition: background .1s ease-in-out, color .1s ease-in-out, border .1s ease-in-out; -ms-transition: background .1s ease-in-out, color .1s ease-in-out, border .1s ease-in-out; -o-transition: background .1s ease-in-out, color .1s ease-in-out, border .1s ease-in-out; transition: background .1s ease-in-out, color .1s ease-in-out, border .1s ease-in-out; }
 .btn:hover, .btn:focus, .btn:active { color: #000; background: #d0d4d8; }
 .btn-xs, .btn-group-xs > .btn { font-size: 11px; padding: 4px 13px 5px 13px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
