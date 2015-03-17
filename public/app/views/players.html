@@ -13,13 +13,6 @@
 
 
                     <!-- Table - list players -->
-                    <p>
-                        <select name="hand" class="form-control input-select" ng-model="players.playerData.attributes.hand" required>
-                            <option value="">..with selection</option>
-                            <option ng-repeat="hand in players.handoptions" value="{{hand.name}}">{{hand.value}}</option>
-                        </select>
-                    </p>
-
                     <table class="mGrid delete-hover" ng-if="!players.getprocessing">
                         <thead>
                         <tr>
